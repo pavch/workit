@@ -134,11 +134,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             print("Y no setup the files? What should I play?")
         } else {
             self.currentTrackIndex = index
-
+            
             // choose file from play list
             let fileURL:URL =  Bundle.main.url(
                 forResource: self.playListFiles[self.currentTrackIndex - 1]
-                , withExtension: "mp3"
+                , withExtension: "MP3"
                 , subdirectory: "mp3/\(self.language)")!
             
             

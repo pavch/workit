@@ -92,7 +92,7 @@ class SecondViewController: LanguageHolder, UITableViewDataSource, UITableViewDe
         if (self.player == nil) {
             self.player = self.storyboard!.instantiateViewController(withIdentifier: "audioPlayer") as! ViewController;
             loadTranslationData()
-            self.player!.setupPlaylistFiles(section: 1, language: self.translateToLanguage, titles: phrases, translations: translations)
+            self.player!.setupPlaylistFiles(section: 2, language: self.translateToLanguage, titles: phrases, translations: translations)
         }
         
         self.player!.setupTrack( index: indexPath.row + 1)
