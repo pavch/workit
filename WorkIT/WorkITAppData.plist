@@ -2,6 +2,52 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BG</key>
+	<dict>
+		<key>section 1</key>
+		<dict>
+			<key>1</key>
+			<string>Искам да работя.</string>
+			<key>2</key>
+			<string>Къде мога да намеря бюрото по труда?</string>
+			<key>3</key>
+			<string>Къде мога да търся работа?</string>
+			<key>4</key>
+			<string>Как мога да получа разрешение за работа?</string>
+			<key>5</key>
+			<string>Какво ми трябва, за да кандидатствам за работа?</string>
+			<key>6</key>
+			<string>Работил(а) съм в сферата на услугите.</string>
+			<key>7</key>
+			<string>Търся работа в сферата на селското стопанство.</string>
+			<key>8</key>
+			<string>Аз съм строителен работник.</string>
+			<key>9</key>
+			<string>Бих искал(а) да стана електротехник.</string>
+			<key>10</key>
+			<string>Бих искал(а) да стана шофьор.</string>
+			<key>11</key>
+			<string>Отговарях за петима работника.</string>
+			<key>12</key>
+			<string>Нуждая се от помощ за търсене на работа.</string>
+			<key>13</key>
+			<string>Кои Интернет страници мога да посетя?</string>
+			<key>14</key>
+			<string>Имам диплома за средно образование.</string>
+			<key>15</key>
+			<string>Имам диплома за инженер.</string>
+			<key>16</key>
+			<string>Имам нужда от допълнително обучение.</string>
+			<key>17</key>
+			<string>Искам да посещавам езиков курс.</string>
+			<key>18</key>
+			<string>Трябва да си подобря уменията за говорене.</string>
+			<key>19</key>
+			<string>Имам бакалавърска степен.</string>
+			<key>20</key>
+			<string>Бил съм управител.</string>
+		</dict>
+	</dict>
 	<key>EN</key>
 	<dict>
 		<key>section 1</key>

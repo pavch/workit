@@ -22,9 +22,9 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     // play list file and title list
     var playListFiles = [String]()
     var playListTitles = [String]()
+    var translations = [String]()
     var section: Int = 0
     var language: String = ""
-    var currentTrackName: String = ""
     
     // total number of track
     var trackCount: Int = 0
@@ -40,7 +40,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet var trackInfo: UILabel!
     
     // outlet - play duration label
-    @IBOutlet var playDuration: UILabel!
+    @IBOutlet var translation: UILabel!
     
     // outlet - track title label
     @IBOutlet var trackTitle: UILabel!
@@ -74,32 +74,13 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     // MARK: - View functions
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        // setup play list
-//        self.setupPlayList()
-        
-        // setup audio player
-//        self.setupTrack(name: self.currentTrackName, index: self.currentTrackIndex)
-        
-//        // set button status
-//        self.setButtonStatus()
-//        
-//        // play track
-//        self.playTrack()
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     override func viewWillAppear(_ animated: Bool) {
         self.setupTrack(index: self.currentTrackIndex)
-        // set button status
+
         self.setButtonStatus()
         
-        // play track
         self.playTrack()
     }
     
@@ -109,7 +90,6 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     // set status false and set button  when audio finished.
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
         
-        // set playing off
         self.isPlaying = false
         
         // invalidate scheduled timer.
@@ -120,48 +100,19 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     // show message if error occured while decoding the audio
     func audioPlayerDecodeErrorDidOccur(_ player: AVAudioPlayer, error: Error?) {
-        // print friendly error message
         print(error!.localizedDescription)
     }
-    
-    
-    
-    // MARK: - Utility functions
-    
-    // setup playList
-//    fileprivate func setupPlayList(title: String) {
-//        
-//        // audio resource file list
-////        self.playListFiles = ["forest-bright-01","jungle-01","swamp-01","forest-bright-01","jungle-01"]
-//        self.playListFiles = [];
-//        // track title list
-//        self.playListTitles = [title]
-//        
-//        // total number of track
-//        self.trackCount = self.playListFiles.count
-//        
-//        // set current track
-//        self.currentTrackIndex = 1
-//        
-//        // set playing status
-//        self.isPlaying = false
-//    }
-    
-    // MARK: - Utility functions
-    
-    // setup playList
-    func setupPlaylistFiles(section: Int, language: String, titles: [String]) {
+
+    func setupPlaylistFiles(section: Int, language: String, titles: [String], translations: [String]) {
         
-        // audio resource file list
-        //        self.playListFiles = ["forest-bright-01","jungle-01","swamp-01","forest-bright-01","jungle-01"]
         self.playListFiles = [];
         
-//        )
         for index in 1...20 {
             self.playListFiles.append("\(section)_\(index)_\(language)")
         }
         // track title list
         self.playListTitles = titles
+        self.translations = translations
         
         // total number of track
         self.trackCount = self.playListFiles.count
@@ -327,18 +278,10 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
         // set track title
         self.trackTitle.text = self.playListTitles[self.currentTrackIndex - 1]
+        
+        //set translation title
+        self.translation.text = self.translations[self.currentTrackIndex - 1]
     }
-    
-    // update currently played time label.
-//    func updatePlayedTimeLabel(){
-//        
-//        let currentTime = Int(self.audioPlayer.currentTime)
-//        let minutes = currentTime/60
-//        let seconds = currentTime - (minutes * 60)
-//        
-//        // update time within label
-//        self.playDuration.text = NSString(format: "%02d:%02d", minutes,seconds) as String
-//    }
     
 }
 

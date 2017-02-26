@@ -11,6 +11,7 @@ import UIKit
 class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
     
     var phrases: [String] = [];
+    var translations: [String] = [];
     var workitData : NSDictionary! = [:];
 
     let cellIdentifier = "CellIdentifier"
@@ -29,7 +30,6 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     func loadTrackData(){
         let workitDataPath = Bundle.main.path(forResource: "WorkITAppData", ofType: "plist", inDirectory: ".")
         workitData = NSDictionary(contentsOfFile: workitDataPath!)
-//        print(workitData ?? "bla")
         let itemsDictionary:NSDictionary = workitData.object(forKey: Constants.englishLangKey) as! NSDictionary
         let firstSectionItems = itemsDictionary.object(forKey: Constants.sectionFirstKey) as! NSDictionary
         
@@ -42,8 +42,23 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         for index in sortedArray {
             phrases.append(firstSectionItems.value(forKey: String(index)) as! String)
         }
-//        phrases = sortedValues as [String]!
-        //choose language?
+    }
+    
+    func loadTranslationData(){
+        let workitDataPath = Bundle.main.path(forResource: "WorkITAppData", ofType: "plist", inDirectory: ".")
+        workitData = NSDictionary(contentsOfFile: workitDataPath!)
+        let itemsDictionary:NSDictionary = workitData.object(forKey: Constants.bgLangKey) as! NSDictionary
+        let firstSectionItems = itemsDictionary.object(forKey: Constants.sectionFirstKey) as! NSDictionary
+        
+        let unsortedKeys = firstSectionItems.allKeys// ["a", "b"]
+        var unsortedArray:[Int] = []
+        
+        unsortedArray = unsortedKeys.map { Int($0 as! String)! }
+        let sortedArray:[Int] = unsortedArray.sorted(by: <)
+        
+        for index in sortedArray {
+            self.translations.append(firstSectionItems.value(forKey: String(index)) as! String)
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -75,7 +90,8 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if (self.player == nil) {
             self.player = self.storyboard!.instantiateViewController(withIdentifier: "audioPlayer") as! ViewController;
-            self.player!.setupPlaylistFiles(section: 1, language: Constants.bgLangKey, titles: phrases)
+            loadTranslationData()
+            self.player!.setupPlaylistFiles(section: 1, language: Constants.bgLangKey, titles: phrases, translations: translations)
         }
 //        let currentTrackName:String = "\(self.sectionPrefix)\(indexPath.row + 1)_\(self.translateToLanguage)"
         print(indexPath.row)

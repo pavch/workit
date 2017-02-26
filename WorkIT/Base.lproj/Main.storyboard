@@ -325,7 +325,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="track translation comes here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOC-qW-wsW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="track translation comes here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NOC-qW-wsW">
                                 <rect key="frame" x="20" y="210" width="280" height="60.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="OIB-9n-Grk"/>
@@ -374,7 +374,7 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="track title come here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKS-Ul-PC6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="track title come here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CKS-Ul-PC6">
                                 <rect key="frame" x="20" y="278" width="280" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="jxF-a9-dLZ"/>
@@ -405,10 +405,10 @@
                         <outlet property="nextButton" destination="d7s-la-kBC" id="7hy-ue-9Ct"/>
                         <outlet property="pauseButton" destination="iqL-Fv-nvw" id="bvC-hV-jIX"/>
                         <outlet property="playButton" destination="hzm-a0-HOb" id="kFt-Uu-bf0"/>
-                        <outlet property="playDuration" destination="NOC-qW-wsW" id="NY0-eD-bvd"/>
                         <outlet property="prevButton" destination="91c-cZ-WVR" id="ZTN-vm-7Dz"/>
                         <outlet property="trackInfo" destination="mfn-8b-cRI" id="5HA-f2-pfs"/>
                         <outlet property="trackTitle" destination="CKS-Ul-PC6" id="A1e-nd-FOy"/>
+                        <outlet property="translation" destination="NOC-qW-wsW" id="btc-Nu-hJO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IsQ-CQ-o85" sceneMemberID="firstResponder"/>
