@@ -45,6 +45,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     // outlet - track title label
     @IBOutlet var trackTitle: UILabel!
     
+    @IBOutlet var imageView: UIImageView!
     
     
     // outlet & action - prev button
@@ -74,6 +75,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     // MARK: - View functions
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.imageView.image = UIImage(named: "section\(self.section)")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -106,7 +108,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     func setupPlaylistFiles(section: Int, language: String, titles: [String], translations: [String]) {
         
         self.playListFiles = [];
-        
+        self.section = section;
         for index in 1...20 {
             self.playListFiles.append("\(section)_\(index)_\(language)")
         }

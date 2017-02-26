@@ -83,6 +83,8 @@ class ForthViewController: LanguageHolder, UITableViewDataSource, UITableViewDel
         let phrase = phrases[indexPath.row]
         
         // Configure Cell
+        cell.textLabel?.adjustsFontSizeToFitWidth = true
+        cell.textLabel?.textColor = Constants.textColor
         cell.textLabel?.text = phrase
         
         return cell

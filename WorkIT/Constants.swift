@@ -6,7 +6,7 @@
 //  Copyright © 2017 Pavlina Koleva. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct Constants {
     
@@ -32,5 +32,6 @@ struct Constants {
     static let sectionSecondPrefix = "2_"
     static let sectionThirdPrefix = "3_"
     static let sectionForthPrefix = "4_"
-
+    
+    static let textColor = UIColor.init(colorLiteralRed: 0.290, green: 0.001, blue: 0.227, alpha: 1.00)
 }

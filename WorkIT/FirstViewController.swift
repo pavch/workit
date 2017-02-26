@@ -87,6 +87,7 @@ class FirstViewController: LanguageHolder, UITableViewDataSource, UITableViewDel
         
         // Configure Cell
         cell.textLabel?.adjustsFontSizeToFitWidth = true
+        cell.textLabel?.textColor = Constants.textColor
         cell.textLabel?.text = phrase
         
         
@@ -98,7 +99,10 @@ class FirstViewController: LanguageHolder, UITableViewDataSource, UITableViewDel
             self.player = self.storyboard!.instantiateViewController(withIdentifier: "audioPlayer") as! ViewController;
             loadTracks()
             self.player!.setupPlaylistFiles(section: 1, language: self.translateToLanguage, titles: phrases, translations: translations)
+//            self.player!.imageView.image = UIImage(named: "section1")
+            
         }
+        print("imageview\(self.player!.imageView)")
 
         self.player!.setupTrack( index: indexPath.row + 1)
         

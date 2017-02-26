@@ -27,6 +27,10 @@ class LanguageController: UIViewController,
         chooseLanguageLabel.text = "Choose the language you speak:"
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        pickerView.selectRow(2, inComponent: 0, animated: true)
+    }
+    
     //MARK: - Delegates and data sources
     //MARK: Data Sources
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -58,7 +62,7 @@ class LanguageController: UIViewController,
     
     func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
         let titleData = languages[row]
-        let myTitle = NSAttributedString(string: titleData, attributes: [NSFontAttributeName:UIFont(name: "Georgia", size: 15.0)!,NSForegroundColorAttributeName:UIColor.blue])
+        let myTitle = NSAttributedString(string: titleData, attributes: [NSFontAttributeName:UIFont(name: "Georgia", size: 15.0)!,NSForegroundColorAttributeName:Constants.textColor])
         return myTitle
     }
 }

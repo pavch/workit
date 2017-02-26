@@ -18,6 +18,12 @@
 		E12A7B431E524DB60008E377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A7B421E524DB60008E377 /* ViewController.swift */; };
 		E151B76E1E632C290019CB28 /* LanguageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151B76D1E632C290019CB28 /* LanguageController.swift */; };
 		E151B7721E6341770019CB28 /* LanguageHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151B7711E6341770019CB28 /* LanguageHolder.swift */; };
+		E151B7761E6355120019CB28 /* Workit_Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E151B7751E6355120019CB28 /* Workit_Logo.jpg */; };
+		E151B77D1E636E620019CB28 /* section1.png in Resources */ = {isa = PBXBuildFile; fileRef = E151B77B1E636E620019CB28 /* section1.png */; };
+		E151B7821E636EAD0019CB28 /* section2.png in Resources */ = {isa = PBXBuildFile; fileRef = E151B77F1E636EAD0019CB28 /* section2.png */; };
+		E151B7831E636EAD0019CB28 /* section3.png in Resources */ = {isa = PBXBuildFile; fileRef = E151B7801E636EAD0019CB28 /* section3.png */; };
+		E151B7841E636EAD0019CB28 /* section4.png in Resources */ = {isa = PBXBuildFile; fileRef = E151B7811E636EAD0019CB28 /* section4.png */; };
+		E151B7881E6378AC0019CB28 /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = E151B7871E6378AC0019CB28 /* people.png */; };
 		E1AE67101E37DDF200EF6599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE670F1E37DDF200EF6599 /* AppDelegate.swift */; };
 		E1AE67121E37DDF200EF6599 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE67111E37DDF200EF6599 /* FirstViewController.swift */; };
 		E1AE67141E37DDF200EF6599 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE67131E37DDF200EF6599 /* SecondViewController.swift */; };
@@ -39,6 +45,12 @@
 		E12A7B421E524DB60008E377 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E151B76D1E632C290019CB28 /* LanguageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageController.swift; sourceTree = "<group>"; };
 		E151B7711E6341770019CB28 /* LanguageHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageHolder.swift; sourceTree = "<group>"; };
+		E151B7751E6355120019CB28 /* Workit_Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Workit_Logo.jpg; sourceTree = "<group>"; };
+		E151B77B1E636E620019CB28 /* section1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = section1.png; sourceTree = "<group>"; };
+		E151B77F1E636EAD0019CB28 /* section2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = section2.png; sourceTree = "<group>"; };
+		E151B7801E636EAD0019CB28 /* section3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = section3.png; sourceTree = "<group>"; };
+		E151B7811E636EAD0019CB28 /* section4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = section4.png; sourceTree = "<group>"; };
+		E151B7871E6378AC0019CB28 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
 		E1AE670C1E37DDF200EF6599 /* WorkIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AE670F1E37DDF200EF6599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1AE67111E37DDF200EF6599 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +92,12 @@
 		E1AE670E1E37DDF200EF6599 /* WorkIT */ = {
 			isa = PBXGroup;
 			children = (
+				E151B7871E6378AC0019CB28 /* people.png */,
+				E151B77F1E636EAD0019CB28 /* section2.png */,
+				E151B7801E636EAD0019CB28 /* section3.png */,
+				E151B7811E636EAD0019CB28 /* section4.png */,
+				E151B77B1E636E620019CB28 /* section1.png */,
+				E151B7751E6355120019CB28 /* Workit_Logo.jpg */,
 				E12A7B341E523B950008E377 /* Section.swift */,
 				E1F9D9C41E6208E800864C72 /* mp3 */,
 				E12A7B351E523B950008E377 /* SectionsViewController.swift */,
@@ -162,11 +180,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E151B77D1E636E620019CB28 /* section1.png in Resources */,
+				E151B7761E6355120019CB28 /* Workit_Logo.jpg in Resources */,
+				E151B7831E636EAD0019CB28 /* section3.png in Resources */,
 				E1F9D9C51E6208E800864C72 /* mp3 in Resources */,
 				E12A7B3D1E523B950008E377 /* WorkITAppData.plist in Resources */,
 				E1AE671C1E37DDF200EF6599 /* LaunchScreen.storyboard in Resources */,
 				E1AE67191E37DDF200EF6599 /* Assets.xcassets in Resources */,
 				E1AE67171E37DDF200EF6599 /* Main.storyboard in Resources */,
+				E151B7881E6378AC0019CB28 /* people.png in Resources */,
+				E151B7821E636EAD0019CB28 /* section2.png in Resources */,
+				E151B7841E636EAD0019CB28 /* section4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

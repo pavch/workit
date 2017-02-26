@@ -14,6 +14,8 @@ class TabViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.tabBar.tintColor = UIColor.white
+        self.tabBar.unselectedItemTintColor = UIColor.darkGray
         for viewController in self.viewControllers! {
 //                let navController = viewController as! UINavigationController
 //                navController.viewControllers[0]
