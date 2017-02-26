@@ -19,7 +19,6 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     var translateToLanguage: String = Constants.bgLangKey
     var mainLanguage: String = Constants.englishLangKey
     var sectionKey: String = Constants.sectionFirstKey
-    var sectionTitle: String = ""
     
 
     override func viewDidLoad() {
@@ -34,7 +33,7 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         let itemsDictionary:NSDictionary = workitData.object(forKey: Constants.englishLangKey) as! NSDictionary
         let firstSectionItems = itemsDictionary.object(forKey: self.sectionKey) as! NSDictionary
         
-        self.sectionTitle = firstSectionItems.object(forKey: "title") as! String
+        self.navigationItem.title = firstSectionItems.object(forKey: "title") as! String
         let unsortedKeys = firstSectionItems.allKeys.filter() { ($0 as! String) != "title"}// ["a", "b"]
         var unsortedArray:[Int] = []
         

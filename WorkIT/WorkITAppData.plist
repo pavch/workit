@@ -237,90 +237,90 @@
 			<key>title</key>
 			<string>ON THE JOB</string>
 			<key>1</key>
-			<string></string>
+			<string>Good morning!</string>
 			<key>2</key>
-			<string></string>
+			<string>Have a nice day!</string>
 			<key>3</key>
-			<string></string>
+			<string>How are you?</string>
 			<key>4</key>
-			<string></string>
+			<string>I’m fine, thank you!</string>
 			<key>5</key>
-			<string></string>
+			<string>I don’t understand.</string>
 			<key>6</key>
-			<string></string>
+			<string>Please repeat.</string>
 			<key>7</key>
-			<string></string>
+			<string>Can you finish the work?</string>
 			<key>8</key>
-			<string></string>
+			<string>No problem!</string>
 			<key>9</key>
-			<string></string>
+			<string>I need help.</string>
 			<key>10</key>
-			<string></string>
+			<string>I would like to speak to the manager.</string>
 			<key>11</key>
-			<string></string>
+			<string>Thank you for the information!</string>
 			<key>12</key>
-			<string></string>
+			<string>Can I work an extra shift this week?</string>
 			<key>13</key>
-			<string></string>
+			<string>I will perform the tasks on time.</string>
 			<key>14</key>
-			<string></string>
+			<string>Who is going to work on this project?</string>
 			<key>15</key>
-			<string></string>
+			<string>When is the deadline?</string>
 			<key>16</key>
-			<string></string>
+			<string>You have to clean your workplace after work.</string>
 			<key>17</key>
-			<string></string>
+			<string>I can’t finish the work today, I’m sorry.</string>
 			<key>18</key>
-			<string></string>
+			<string>I can’t drive, I’m sorry.</string>
 			<key>19</key>
-			<string></string>
+			<string>Keep out!</string>
 			<key>20</key>
-			<string></string>
+			<string>Be careful!</string>
 		</dict>
 		<key>section 3</key>
 		<dict>
 			<key>title</key>
 			<string>GETTING A JOB</string>
 			<key>1</key>
-			<string></string>
+			<string>What are your strengths?</string>
 			<key>2</key>
-			<string></string>
+			<string>I am reliable</string>
 			<key>3</key>
-			<string></string>
+			<string>I am willing to learn</string>
 			<key>4</key>
-			<string></string>
+			<string>I work well in a team</string>
 			<key>5</key>
-			<string></string>
+			<string>What are your weaknesses?</string>
 			<key>6</key>
-			<string></string>
+			<string>I don’t speak the language well</string>
 			<key>7</key>
-			<string></string>
+			<string>Why are you interested in working for our company?</string>
 			<key>8</key>
-			<string></string>
+			<string>I want to gain more experience</string>
 			<key>9</key>
-			<string></string>
+			<string>I want to practice my profession</string>
 			<key>10</key>
-			<string></string>
+			<string>Because of the good reputation of your company</string>
 			<key>11</key>
-			<string></string>
+			<string>I resigned from my last job because I had to leave the country</string>
 			<key>12</key>
-			<string></string>
+			<string>I would like a salary not lower than…</string>
 			<key>13</key>
-			<string></string>
+			<string>What skills and experience are you looking for?</string>
 			<key>14</key>
-			<string></string>
+			<string>How many working hours is the working week?</string>
 			<key>15</key>
-			<string></string>
+			<string>When is the start date?</string>
 			<key>16</key>
-			<string></string>
+			<string>How many days annual leave do I have?</string>
 			<key>17</key>
-			<string></string>
+			<string>What kind of work contract can your company offer me?</string>
 			<key>18</key>
-			<string></string>
+			<string>We can offer you a permanent contract</string>
 			<key>19</key>
-			<string></string>
+			<string>The agreement duration is one year. </string>
 			<key>20</key>
-			<string></string>
+			<string>The probation period is three months.</string>
 		</dict>
 		<key>section 1</key>
 		<dict>
