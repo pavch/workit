@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   WorkITAppData.plist
-   WorkIT
-
-   Created by Pavlina Koleva on 1/29/17.
-   Copyright (c) 2017 Pavlina Koleva. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>EN</key>
+	<dict>
+		<key>section 1</key>
+		<dict>
+			<key>20</key>
+			<string>I used to be a manager.</string>
+			<key>19</key>
+			<string>I have a bachelor degree.</string>
+			<key>18</key>
+			<string>I need to improve my speaking skills.</string>
+			<key>17</key>
+			<string>I want to attend a language course.</string>
+			<key>16</key>
+			<string>I need additional training.</string>
+			<key>15</key>
+			<string>I have a diploma in engineering.</string>
+			<key>14</key>
+			<string>I have a secondary school education diploma.</string>
+			<key>13</key>
+			<string>What Internet sites can I visit?</string>
+			<key>12</key>
+			<string>I need help with looking for a job. </string>
+			<key>11</key>
+			<string>I was in charge of five workers.</string>
+			<key>10</key>
+			<string>I would like to become a driver.</string>
+			<key>9</key>
+			<string>I would like to become an electrician.</string>
+			<key>8</key>
+			<string>I am construction worker.</string>
+			<key>7</key>
+			<string>I am looking for a job in agriculture.</string>
+			<key>6</key>
+			<string>I used to work in service sector.</string>
+			<key>5</key>
+			<string>What do I need to apply for a job?</string>
+			<key>4</key>
+			<string>How can I get a work permit?</string>
+			<key>3</key>
+			<string>Where can I look for a job?</string>
+			<key>2</key>
+			<string>Where do I find the employment office?</string>
+			<key>1</key>
+			<string>I want to work.</string>
+		</dict>
+	</dict>
+</dict>
 </plist>

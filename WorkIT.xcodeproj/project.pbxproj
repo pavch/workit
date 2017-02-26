@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1064B371E59D4FB00AC138C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1064B361E59D4FB00AC138C /* Constants.swift */; };
+		E12A7B391E523B950008E377 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A7B341E523B950008E377 /* Section.swift */; };
+		E12A7B3A1E523B950008E377 /* SectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A7B351E523B950008E377 /* SectionsViewController.swift */; };
+		E12A7B3B1E523B950008E377 /* TabNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A7B361E523B950008E377 /* TabNavViewController.swift */; };
+		E12A7B3C1E523B950008E377 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A7B371E523B950008E377 /* TabViewController.swift */; };
+		E12A7B3D1E523B950008E377 /* WorkITAppData.plist in Resources */ = {isa = PBXBuildFile; fileRef = E12A7B381E523B950008E377 /* WorkITAppData.plist */; };
+		E12A7B3F1E523D940008E377 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A7B3E1E523D940008E377 /* ThirdViewController.swift */; };
+		E12A7B411E523D9E0008E377 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A7B401E523D9E0008E377 /* ForthViewController.swift */; };
+		E12A7B431E524DB60008E377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12A7B421E524DB60008E377 /* ViewController.swift */; };
 		E1AE67101E37DDF200EF6599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE670F1E37DDF200EF6599 /* AppDelegate.swift */; };
 		E1AE67121E37DDF200EF6599 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE67111E37DDF200EF6599 /* FirstViewController.swift */; };
 		E1AE67141E37DDF200EF6599 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE67131E37DDF200EF6599 /* SecondViewController.swift */; };
 		E1AE67171E37DDF200EF6599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AE67151E37DDF200EF6599 /* Main.storyboard */; };
 		E1AE67191E37DDF200EF6599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AE67181E37DDF200EF6599 /* Assets.xcassets */; };
 		E1AE671C1E37DDF200EF6599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AE671A1E37DDF200EF6599 /* LaunchScreen.storyboard */; };
+		E1F9D9C51E6208E800864C72 /* mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1F9D9C41E6208E800864C72 /* mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1064B361E59D4FB00AC138C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E12A7B341E523B950008E377 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		E12A7B351E523B950008E377 /* SectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionsViewController.swift; sourceTree = "<group>"; };
+		E12A7B361E523B950008E377 /* TabNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabNavViewController.swift; sourceTree = "<group>"; };
+		E12A7B371E523B950008E377 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		E12A7B381E523B950008E377 /* WorkITAppData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WorkITAppData.plist; sourceTree = "<group>"; };
+		E12A7B3E1E523D940008E377 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		E12A7B401E523D9E0008E377 /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		E12A7B421E524DB60008E377 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1AE670C1E37DDF200EF6599 /* WorkIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AE670F1E37DDF200EF6599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1AE67111E37DDF200EF6599 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +43,7 @@
 		E1AE67181E37DDF200EF6599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1AE671B1E37DDF200EF6599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1AE671D1E37DDF200EF6599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F9D9C41E6208E800864C72 /* mp3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,12 @@
 		E1AE670E1E37DDF200EF6599 /* WorkIT */ = {
 			isa = PBXGroup;
 			children = (
+				E1F9D9C41E6208E800864C72 /* mp3 */,
+				E12A7B341E523B950008E377 /* Section.swift */,
+				E12A7B351E523B950008E377 /* SectionsViewController.swift */,
+				E12A7B361E523B950008E377 /* TabNavViewController.swift */,
+				E12A7B371E523B950008E377 /* TabViewController.swift */,
+				E12A7B381E523B950008E377 /* WorkITAppData.plist */,
 				E1AE670F1E37DDF200EF6599 /* AppDelegate.swift */,
 				E1AE67111E37DDF200EF6599 /* FirstViewController.swift */,
 				E1AE67131E37DDF200EF6599 /* SecondViewController.swift */,
@@ -63,6 +89,10 @@
 				E1AE67181E37DDF200EF6599 /* Assets.xcassets */,
 				E1AE671A1E37DDF200EF6599 /* LaunchScreen.storyboard */,
 				E1AE671D1E37DDF200EF6599 /* Info.plist */,
+				E12A7B3E1E523D940008E377 /* ThirdViewController.swift */,
+				E12A7B401E523D9E0008E377 /* ForthViewController.swift */,
+				E12A7B421E524DB60008E377 /* ViewController.swift */,
+				E1064B361E59D4FB00AC138C /* Constants.swift */,
 			);
 			path = WorkIT;
 			sourceTree = "<group>";
@@ -126,6 +156,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F9D9C51E6208E800864C72 /* mp3 in Resources */,
+				E12A7B3D1E523B950008E377 /* WorkITAppData.plist in Resources */,
 				E1AE671C1E37DDF200EF6599 /* LaunchScreen.storyboard in Resources */,
 				E1AE67191E37DDF200EF6599 /* Assets.xcassets in Resources */,
 				E1AE67171E37DDF200EF6599 /* Main.storyboard in Resources */,
@@ -139,9 +171,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12A7B431E524DB60008E377 /* ViewController.swift in Sources */,
+				E1064B371E59D4FB00AC138C /* Constants.swift in Sources */,
 				E1AE67141E37DDF200EF6599 /* SecondViewController.swift in Sources */,
+				E12A7B391E523B950008E377 /* Section.swift in Sources */,
+				E12A7B3B1E523B950008E377 /* TabNavViewController.swift in Sources */,
 				E1AE67101E37DDF200EF6599 /* AppDelegate.swift in Sources */,
 				E1AE67121E37DDF200EF6599 /* FirstViewController.swift in Sources */,
+				E12A7B3C1E523B950008E377 /* TabViewController.swift in Sources */,
+				E12A7B411E523D9E0008E377 /* ForthViewController.swift in Sources */,
+				E12A7B3F1E523D940008E377 /* ThirdViewController.swift in Sources */,
+				E12A7B3A1E523B950008E377 /* SectionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +304,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[arch=*]" = disable;
 				INFOPLIST_FILE = WorkIT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = europrojects.WorkIT;
@@ -276,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = "";
 				INFOPLIST_FILE = WorkIT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = europrojects.WorkIT;
@@ -303,6 +346,7 @@
 				E1AE67221E37DDF200EF6599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

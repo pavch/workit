@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  WorkIT
 //
 //  Created by Pavlina Koleva on 1/24/17.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-
+class ForthViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
     var phrases: [String] = [];
     
     let cellIdentifier = "CellIdentifier"
@@ -49,7 +49,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(phrases[indexPath.row])
     }
-
-
+    
+    
 }
 
