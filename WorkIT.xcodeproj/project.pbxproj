@@ -76,8 +76,8 @@
 		E1AE670E1E37DDF200EF6599 /* WorkIT */ = {
 			isa = PBXGroup;
 			children = (
-				E1F9D9C41E6208E800864C72 /* mp3 */,
 				E12A7B341E523B950008E377 /* Section.swift */,
+				E1F9D9C41E6208E800864C72 /* mp3 */,
 				E12A7B351E523B950008E377 /* SectionsViewController.swift */,
 				E12A7B361E523B950008E377 /* TabNavViewController.swift */,
 				E12A7B371E523B950008E377 /* TabViewController.swift */,

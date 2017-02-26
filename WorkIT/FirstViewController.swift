@@ -18,7 +18,8 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     var player: ViewController? = nil
     var translateToLanguage: String = Constants.bgLangKey
     var mainLanguage: String = Constants.englishLangKey
-    var sectionPrefix: String = Constants.sectionFirstPrefix
+    var sectionKey: String = Constants.sectionFirstKey
+    var sectionTitle: String = ""
     
 
     override func viewDidLoad() {
@@ -31,9 +32,10 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         let workitDataPath = Bundle.main.path(forResource: "WorkITAppData", ofType: "plist", inDirectory: ".")
         workitData = NSDictionary(contentsOfFile: workitDataPath!)
         let itemsDictionary:NSDictionary = workitData.object(forKey: Constants.englishLangKey) as! NSDictionary
-        let firstSectionItems = itemsDictionary.object(forKey: Constants.sectionFirstKey) as! NSDictionary
+        let firstSectionItems = itemsDictionary.object(forKey: self.sectionKey) as! NSDictionary
         
-        let unsortedKeys = firstSectionItems.allKeys// ["a", "b"]
+        self.sectionTitle = firstSectionItems.object(forKey: "title") as! String
+        let unsortedKeys = firstSectionItems.allKeys.filter() { ($0 as! String) != "title"}// ["a", "b"]
         var unsortedArray:[Int] = []
         
         unsortedArray = unsortedKeys.map { Int($0 as! String)! }
@@ -48,9 +50,9 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         let workitDataPath = Bundle.main.path(forResource: "WorkITAppData", ofType: "plist", inDirectory: ".")
         workitData = NSDictionary(contentsOfFile: workitDataPath!)
         let itemsDictionary:NSDictionary = workitData.object(forKey: Constants.bgLangKey) as! NSDictionary
-        let firstSectionItems = itemsDictionary.object(forKey: Constants.sectionFirstKey) as! NSDictionary
+        let firstSectionItems = itemsDictionary.object(forKey: self.sectionKey) as! NSDictionary
         
-        let unsortedKeys = firstSectionItems.allKeys// ["a", "b"]
+        let unsortedKeys = firstSectionItems.allKeys.filter() { ($0 as! String) != "title"}// ["a", "b"]
         var unsortedArray:[Int] = []
         
         unsortedArray = unsortedKeys.map { Int($0 as! String)! }
@@ -93,8 +95,7 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
             loadTranslationData()
             self.player!.setupPlaylistFiles(section: 1, language: Constants.bgLangKey, titles: phrases, translations: translations)
         }
-//        let currentTrackName:String = "\(self.sectionPrefix)\(indexPath.row + 1)_\(self.translateToLanguage)"
-        print(indexPath.row)
+
         self.player!.setupTrack( index: indexPath.row + 1)
         
         self.navigationController!.pushViewController(self.player!, animated: true);

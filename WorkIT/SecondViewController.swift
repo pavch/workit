@@ -11,13 +11,56 @@ import UIKit
 class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     var phrases: [String] = [];
+    var translations: [String] = [];
+    var workitData : NSDictionary! = [:];
     
     let cellIdentifier = "CellIdentifier"
+    var player: ViewController? = nil
+    var translateToLanguage: String = Constants.bgLangKey
+    var mainLanguage: String = Constants.englishLangKey
+    var sectionKey: String = Constants.sectionSecondKey
+    var sectionTitle: String = ""
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        phrases = ["Baal", "Diablo", "Mephisto"]
+        loadTrackData()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    func loadTrackData(){
+        let workitDataPath = Bundle.main.path(forResource: "WorkITAppData", ofType: "plist", inDirectory: ".")
+        workitData = NSDictionary(contentsOfFile: workitDataPath!)
+        let itemsDictionary:NSDictionary = workitData.object(forKey: Constants.englishLangKey) as! NSDictionary
+        let firstSectionItems = itemsDictionary.object(forKey: self.sectionKey) as! NSDictionary
+        
+        self.sectionTitle = firstSectionItems.object(forKey: "title") as! String
+        let unsortedKeys = firstSectionItems.allKeys.filter() { ($0 as! String) != "title"}
+        var unsortedArray:[Int] = []
+        
+        unsortedArray = unsortedKeys.map { Int($0 as! String)! }
+        let sortedArray:[Int] = unsortedArray.sorted(by: <)
+        
+        for index in sortedArray {
+            phrases.append(firstSectionItems.value(forKey: String(index)) as! String)
+        }
+    }
+    
+    func loadTranslationData(){
+        let workitDataPath = Bundle.main.path(forResource: "WorkITAppData", ofType: "plist", inDirectory: ".")
+        workitData = NSDictionary(contentsOfFile: workitDataPath!)
+        let itemsDictionary:NSDictionary = workitData.object(forKey: Constants.bgLangKey) as! NSDictionary
+        let firstSectionItems = itemsDictionary.object(forKey: self.sectionKey) as! NSDictionary
+        
+        let unsortedKeys = firstSectionItems.allKeys.filter() { ($0 as! String) != "title"}
+        var unsortedArray:[Int] = []
+        
+        unsortedArray = unsortedKeys.map { Int($0 as! String)! }
+        let sortedArray:[Int] = unsortedArray.sorted(by: <)
+        
+        for index in sortedArray {
+            self.translations.append(firstSectionItems.value(forKey: String(index)) as! String)
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -47,9 +90,18 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if (self.player == nil) {
+            self.player = self.storyboard!.instantiateViewController(withIdentifier: "audioPlayer") as! ViewController;
+            loadTranslationData()
+            self.player!.setupPlaylistFiles(section: 1, language: Constants.bgLangKey, titles: phrases, translations: translations)
+        }
+        
+        self.player!.setupTrack( index: indexPath.row + 1)
+        
+        self.navigationController!.pushViewController(self.player!, animated: true);
+        
         print(phrases[indexPath.row])
     }
-
 
 }
 

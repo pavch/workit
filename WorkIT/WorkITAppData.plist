@@ -4,8 +4,145 @@
 <dict>
 	<key>BG</key>
 	<dict>
+		<key>section 4</key>
+		<dict>
+			<key>title</key>
+			<string>НА РАБОТА</string>
+			<key>1</key>
+			<string>Добро утро!</string>
+			<key>2</key>
+			<string>Хубав ден!</string>
+			<key>3</key>
+			<string>Как си?</string>
+			<key>4</key>
+			<string>Добре съм, благодаря!</string>
+			<key>5</key>
+			<string>Не разбирам.</string>
+			<key>6</key>
+			<string>Моля, повтори.</string>
+			<key>7</key>
+			<string>Можеш ли да свършиш работата?</string>
+			<key>8</key>
+			<string>Няма проблем!</string>
+			<key>9</key>
+			<string>Имам нужда от помощ.</string>
+			<key>10</key>
+			<string>Бих искал(а) да говоря с управителя.</string>
+			<key>11</key>
+			<string>Благодаря за информацията!</string>
+			<key>12</key>
+			<string>Мога ли да работя извънредна смяна тази седмица?</string>
+			<key>13</key>
+			<string>Ще изпълня задачите навреме.</string>
+			<key>14</key>
+			<string>Кой ще работи по този проект?</string>
+			<key>15</key>
+			<string>Кога е крайният срок?</string>
+			<key>16</key>
+			<string>Трябва да си почистваш работното място след работа.</string>
+			<key>17</key>
+			<string>Не мога да свърша работата днес, съжалявам.</string>
+			<key>18</key>
+			<string>Не мога да шофирам, съжалявам.</string>
+			<key>19</key>
+			<string>Не влизай!</string>
+			<key>20</key>
+			<string>Внимание!</string>
+		</dict>
+		<key>section 3</key>
+		<dict>
+			<key>title</key>
+			<string>ИНТЕРВЮ</string>
+			<key>1</key>
+			<string>Кои са силните ти страни?</string>
+			<key>2</key>
+			<string>Аз съм отговорен/отговорна.</string>
+			<key>3</key>
+			<string>Имам желание да уча.</string>
+			<key>4</key>
+			<string>Работя добре в екип.</string>
+			<key>5</key>
+			<string>Кои са слабите ти страни?</string>
+			<key>6</key>
+			<string>Не говоря добре езика.</string>
+			<key>7</key>
+			<string>Защо искаш да работиш за нашата компания?</string>
+			<key>8</key>
+			<string>Искам да придобия повече опит.</string>
+			<key>9</key>
+			<string>Искам да практикувам професията си.</string>
+			<key>10</key>
+			<string>Заради добрата репутация на вашата компания.</string>
+			<key>11</key>
+			<string>Напуснах последната си работа, защото трябваше да напусна страната.</string>
+			<key>12</key>
+			<string>Бих искал(а) заплата не по-ниска от…</string>
+			<key>13</key>
+			<string>Какви умения и опит търсите?</string>
+			<key>14</key>
+			<string>Колко работни часа е работната седмица?</string>
+			<key>15</key>
+			<string>Кога е началната дата?</string>
+			<key>16</key>
+			<string>Колко дена годишен отпуск имам?</string>
+			<key>17</key>
+			<string>Какъв трудов договор може да ми предложи компанията?</string>
+			<key>18</key>
+			<string>Можем да ти предложим постоянен договор.</string>
+			<key>19</key>
+			<string>Продължителността на договора е една година.</string>
+			<key>20</key>
+			<string>Пробният период е три месеца.</string>
+		</dict>
+		<key>section 2</key>
+		<dict>
+			<key>title</key>
+			<string>КАНДИДАТСТВАНЕ ЗА РАБОТА</string>
+			<key>1</key>
+			<string>Искам да кандидатствам за работа.</string>
+			<key>2</key>
+			<string>Имате ли свободни работни места?</string>
+			<key>3</key>
+			<string>Може ли да получа формуляр за кандидатстване?</string>
+			<key>4</key>
+			<string>Как мога да подам заявление?</string>
+			<key>5</key>
+			<string>Имам образование по информационни технологии.</string>
+			<key>6</key>
+			<string>Работил(а) съм в строителството четири години.</string>
+			<key>7</key>
+			<string>Имам спортна квалификация.</string>
+			<key>8</key>
+			<string>Имам професионален опит като бавачка.</string>
+			<key>9</key>
+			<string>Притежавам добри комуникативни умения.</string>
+			<key>10</key>
+			<string>Търсим ръководител.</string>
+			<key>11</key>
+			<string>Трябва да умеете да работите като част от екип.</string>
+			<key>12</key>
+			<string>Трябва да имате шофьорска книжка.</string>
+			<key>13</key>
+			<string>Трябва да сте добри в разрешаването на проблеми.</string>
+			<key>14</key>
+			<string>Отговорностите ви ще бъдат да извършвате обща работа.</string>
+			<key>15</key>
+			<string>Предлагаме нетна заплата в размер на…</string>
+			<key>16</key>
+			<string>Можем да ви предложим пробен период от един месец.</string>
+			<key>17</key>
+			<string>Трябва да имате здравна застраховка.</string>
+			<key>18</key>
+			<string>Трябва да имате банкова сметка.</string>
+			<key>19</key>
+			<string>Фактурата включва ДДС.</string>
+			<key>20</key>
+			<string>Трябва да плащате данъци.</string>
+		</dict>
 		<key>section 1</key>
 		<dict>
+			<key>title</key>
+			<string>ПОДГОТОВКА ЗА РАБОТА</string>
 			<key>1</key>
 			<string>Искам да работя.</string>
 			<key>2</key>
@@ -50,8 +187,145 @@
 	</dict>
 	<key>EN</key>
 	<dict>
+		<key>section 2</key>
+		<dict>
+			<key>title</key>
+			<string>APPLYING FOR A JOB</string>
+			<key>1</key>
+			<string>I want to apply for a job.</string>
+			<key>2</key>
+			<string>Do you have any job vacancies?</string>
+			<key>3</key>
+			<string>Can I have an application form?</string>
+			<key>4</key>
+			<string>How can I submit an application?</string>
+			<key>5</key>
+			<string>I have an education in IT.</string>
+			<key>6</key>
+			<string>I have worked in the construction sector for four years.</string>
+			<key>7</key>
+			<string>I have a qualification in sports.</string>
+			<key>8</key>
+			<string>I have work experience as nanny.</string>
+			<key>9</key>
+			<string>I have good communication skills</string>
+			<key>10</key>
+			<string>We are looking for a supervisor</string>
+			<key>11</key>
+			<string>You have to be able to work as a part of a team</string>
+			<key>12</key>
+			<string>You need to have (a) driving license</string>
+			<key>13</key>
+			<string>You need to be good at problem solving</string>
+			<key>14</key>
+			<string>Your responsibilities will be …to perform general work</string>
+			<key>15</key>
+			<string>We offer a net salary of…</string>
+			<key>16</key>
+			<string>We can offer you a probation period of one month.</string>
+			<key>17</key>
+			<string>You must have a health insurance.</string>
+			<key>18</key>
+			<string>You need to have a bank account.</string>
+			<key>19</key>
+			<string>The invoice includes VAT.</string>
+			<key>20</key>
+			<string>You have to pay taxes.</string>
+		</dict>
+		<key>section 4</key>
+		<dict>
+			<key>title</key>
+			<string>ON THE JOB</string>
+			<key>1</key>
+			<string></string>
+			<key>2</key>
+			<string></string>
+			<key>3</key>
+			<string></string>
+			<key>4</key>
+			<string></string>
+			<key>5</key>
+			<string></string>
+			<key>6</key>
+			<string></string>
+			<key>7</key>
+			<string></string>
+			<key>8</key>
+			<string></string>
+			<key>9</key>
+			<string></string>
+			<key>10</key>
+			<string></string>
+			<key>11</key>
+			<string></string>
+			<key>12</key>
+			<string></string>
+			<key>13</key>
+			<string></string>
+			<key>14</key>
+			<string></string>
+			<key>15</key>
+			<string></string>
+			<key>16</key>
+			<string></string>
+			<key>17</key>
+			<string></string>
+			<key>18</key>
+			<string></string>
+			<key>19</key>
+			<string></string>
+			<key>20</key>
+			<string></string>
+		</dict>
+		<key>section 3</key>
+		<dict>
+			<key>title</key>
+			<string>GETTING A JOB</string>
+			<key>1</key>
+			<string></string>
+			<key>2</key>
+			<string></string>
+			<key>3</key>
+			<string></string>
+			<key>4</key>
+			<string></string>
+			<key>5</key>
+			<string></string>
+			<key>6</key>
+			<string></string>
+			<key>7</key>
+			<string></string>
+			<key>8</key>
+			<string></string>
+			<key>9</key>
+			<string></string>
+			<key>10</key>
+			<string></string>
+			<key>11</key>
+			<string></string>
+			<key>12</key>
+			<string></string>
+			<key>13</key>
+			<string></string>
+			<key>14</key>
+			<string></string>
+			<key>15</key>
+			<string></string>
+			<key>16</key>
+			<string></string>
+			<key>17</key>
+			<string></string>
+			<key>18</key>
+			<string></string>
+			<key>19</key>
+			<string></string>
+			<key>20</key>
+			<string></string>
+		</dict>
 		<key>section 1</key>
 		<dict>
+			<key>title</key>
+			<string>GETTING READY FOR A JOB</string>
 			<key>20</key>
 			<string>I used to be a manager.</string>
 			<key>19</key>
