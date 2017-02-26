@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ForthViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ForthViewController: LanguageHolder, UITableViewDataSource, UITableViewDelegate {
     
     var phrases: [String] = [];
     var translations: [String] = [];
@@ -16,8 +16,8 @@ class ForthViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     let cellIdentifier = "CellIdentifier"
     var player: ViewController? = nil
-    var translateToLanguage: String = Constants.bgLangKey
-    var mainLanguage: String = Constants.englishLangKey
+    var translateToLanguage: String = Constants.englishLangKey
+//    var mainLanguage: String = Constants.englishLangKey
     var sectionKey: String = Constants.sectionForthKey
     
     
@@ -30,7 +30,7 @@ class ForthViewController: UIViewController, UITableViewDataSource, UITableViewD
     func loadTrackData(){
         let workitDataPath = Bundle.main.path(forResource: "WorkITAppData", ofType: "plist", inDirectory: ".")
         workitData = NSDictionary(contentsOfFile: workitDataPath!)
-        let itemsDictionary:NSDictionary = workitData.object(forKey: Constants.englishLangKey) as! NSDictionary
+        let itemsDictionary:NSDictionary = workitData.object(forKey: Constants.chosenLanguage) as! NSDictionary
         let firstSectionItems = itemsDictionary.object(forKey: self.sectionKey) as! NSDictionary
         
         self.navigationItem.title = firstSectionItems.object(forKey: "title") as! String
@@ -48,7 +48,7 @@ class ForthViewController: UIViewController, UITableViewDataSource, UITableViewD
     func loadTranslationData(){
         let workitDataPath = Bundle.main.path(forResource: "WorkITAppData", ofType: "plist", inDirectory: ".")
         workitData = NSDictionary(contentsOfFile: workitDataPath!)
-        let itemsDictionary:NSDictionary = workitData.object(forKey: Constants.bgLangKey) as! NSDictionary
+        let itemsDictionary:NSDictionary = workitData.object(forKey: self.translateToLanguage) as! NSDictionary
         let firstSectionItems = itemsDictionary.object(forKey: self.sectionKey) as! NSDictionary
         
         let unsortedKeys = firstSectionItems.allKeys.filter() { ($0 as! String) != "title"}
@@ -92,7 +92,7 @@ class ForthViewController: UIViewController, UITableViewDataSource, UITableViewD
         if (self.player == nil) {
             self.player = self.storyboard!.instantiateViewController(withIdentifier: "audioPlayer") as! ViewController;
             loadTranslationData()
-            self.player!.setupPlaylistFiles(section: 1, language: Constants.bgLangKey, titles: phrases, translations: translations)
+            self.player!.setupPlaylistFiles(section: 1, language: self.translateToLanguage, titles: phrases, translations: translations)
         }
         
         self.player!.setupTrack( index: indexPath.row + 1)

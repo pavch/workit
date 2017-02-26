@@ -9,8 +9,19 @@
 import Foundation
 
 struct Constants {
+    
+    static let mainLanguageAbbrArray = ["AR", "BG", "EN", "PO", "RO", "RU", "TU"]
+//    static let translateToLanguageArray = ["", ]
+    static var chosenLanguage = "EN"
+    
     static let englishLangKey = "EN"
     static let bgLangKey = "BG"
+    static let russianLangKey = "RU"
+    static let romanianLangKey = "RO"
+    static let arabicLangKey = "AR"
+    static let turkishLangKey = "TU"
+    static let polishLangKey = "PO"
+
     static let itemsKey = "audio items"
     static let sectionFirstKey = "section 1"
     static let sectionSecondKey = "section 2"
