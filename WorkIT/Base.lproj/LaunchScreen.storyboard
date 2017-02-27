@@ -22,15 +22,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Workit_Logo.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="6P3-g4-EwG">
-                                <rect key="frame" x="16" y="412" width="344" height="235"/>
+                                <rect key="frame" x="15" y="216" width="344" height="235"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="erasmus-plus-logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="j9J-S5-nbF">
+                                <rect key="frame" x="70" y="562" width="235" height="105"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="6P3-g4-EwG" secondAttribute="bottom" constant="20" id="OfV-8h-yFW"/>
-                            <constraint firstAttribute="trailing" secondItem="6P3-g4-EwG" secondAttribute="trailing" constant="15" id="Vjh-Ms-d0x"/>
-                            <constraint firstItem="6P3-g4-EwG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="16" id="oeC-qg-JJb"/>
-                            <constraint firstItem="6P3-g4-EwG" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="392" id="x8h-To-kh1"/>
+                            <constraint firstItem="j9J-S5-nbF" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="542" id="1Ql-Cf-vsu"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="6P3-g4-EwG" secondAttribute="bottom" constant="216" id="OfV-8h-yFW"/>
+                            <constraint firstAttribute="trailing" secondItem="6P3-g4-EwG" secondAttribute="trailing" constant="16" id="Vjh-Ms-d0x"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="j9J-S5-nbF" secondAttribute="bottom" id="ZaJ-MD-2zS"/>
+                            <constraint firstAttribute="trailing" secondItem="j9J-S5-nbF" secondAttribute="trailing" constant="70" id="gyn-Pe-9yy"/>
+                            <constraint firstItem="6P3-g4-EwG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="15" id="oeC-qg-JJb"/>
+                            <constraint firstItem="j9J-S5-nbF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="70" id="vv7-Gg-Tgd"/>
+                            <constraint firstItem="6P3-g4-EwG" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="196" id="x8h-To-kh1"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -41,5 +48,6 @@
     </scenes>
     <resources>
         <image name="Workit_Logo.jpeg" width="640" height="302"/>
+        <image name="erasmus-plus-logo.jpg" width="3929" height="2000"/>
     </resources>
 </document>

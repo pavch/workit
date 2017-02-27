@@ -24,6 +24,7 @@
 		E151B7831E636EAD0019CB28 /* section3.png in Resources */ = {isa = PBXBuildFile; fileRef = E151B7801E636EAD0019CB28 /* section3.png */; };
 		E151B7841E636EAD0019CB28 /* section4.png in Resources */ = {isa = PBXBuildFile; fileRef = E151B7811E636EAD0019CB28 /* section4.png */; };
 		E151B7881E6378AC0019CB28 /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = E151B7871E6378AC0019CB28 /* people.png */; };
+		E151B78A1E6383050019CB28 /* erasmus-plus-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E151B7891E6383050019CB28 /* erasmus-plus-logo.jpg */; };
 		E1AE67101E37DDF200EF6599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE670F1E37DDF200EF6599 /* AppDelegate.swift */; };
 		E1AE67121E37DDF200EF6599 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE67111E37DDF200EF6599 /* FirstViewController.swift */; };
 		E1AE67141E37DDF200EF6599 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE67131E37DDF200EF6599 /* SecondViewController.swift */; };
@@ -51,6 +52,7 @@
 		E151B7801E636EAD0019CB28 /* section3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = section3.png; sourceTree = "<group>"; };
 		E151B7811E636EAD0019CB28 /* section4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = section4.png; sourceTree = "<group>"; };
 		E151B7871E6378AC0019CB28 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
+		E151B7891E6383050019CB28 /* erasmus-plus-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "erasmus-plus-logo.jpg"; sourceTree = "<group>"; };
 		E1AE670C1E37DDF200EF6599 /* WorkIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AE670F1E37DDF200EF6599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1AE67111E37DDF200EF6599 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		E1AE670E1E37DDF200EF6599 /* WorkIT */ = {
 			isa = PBXGroup;
 			children = (
+				E151B7891E6383050019CB28 /* erasmus-plus-logo.jpg */,
 				E151B7871E6378AC0019CB28 /* people.png */,
 				E151B77F1E636EAD0019CB28 /* section2.png */,
 				E151B7801E636EAD0019CB28 /* section3.png */,
@@ -191,6 +194,7 @@
 				E151B7881E6378AC0019CB28 /* people.png in Resources */,
 				E151B7821E636EAD0019CB28 /* section2.png in Resources */,
 				E151B7841E636EAD0019CB28 /* section4.png in Resources */,
+				E151B78A1E6383050019CB28 /* erasmus-plus-logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

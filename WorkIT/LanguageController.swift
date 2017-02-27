@@ -16,7 +16,7 @@ class LanguageController: UIViewController,
     @IBOutlet weak var enterButton: UIButton!
     @IBOutlet weak var chooseLanguageLabel: UILabel!
     @IBOutlet weak var pickerView: UIPickerView!
-    let languages = ["العربية", "Български", "English", "Polski", "Românesc", "Русский", "Türk"]
+    let languages = ["العربية","English", "Polski", "Românesc", "Русский", "Türk"]
     
     var languageIndex: Int = 2
     
@@ -28,7 +28,7 @@ class LanguageController: UIViewController,
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        pickerView.selectRow(2, inComponent: 0, animated: true)
+        pickerView.selectRow(1, inComponent: 0, animated: true)
     }
     
     //MARK: - Delegates and data sources

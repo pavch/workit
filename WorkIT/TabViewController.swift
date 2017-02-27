@@ -15,7 +15,7 @@ class TabViewController: UITabBarController {
         super.viewDidLoad()
         
         self.tabBar.tintColor = UIColor.white
-        self.tabBar.unselectedItemTintColor = UIColor.darkGray
+        self.tabBar.unselectedItemTintColor = UIColor.lightText
         for viewController in self.viewControllers! {
 //                let navController = viewController as! UINavigationController
 //                navController.viewControllers[0]

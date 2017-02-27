@@ -10,7 +10,7 @@ import UIKit
 
 struct Constants {
     
-    static let mainLanguageAbbrArray = ["AR", "BG", "EN", "PO", "RO", "RU", "TU"]
+    static let mainLanguageAbbrArray = ["AR", "EN", "PO", "RO", "RU", "TU"]
 //    static let translateToLanguageArray = ["", ]
     static var chosenLanguage = "EN"
     

@@ -33,10 +33,8 @@ class FirstViewController: LanguageHolder, UITableViewDataSource, UITableViewDel
         print(Constants.chosenLanguage)
         let itemsDictionary:NSDictionary = workitData.object(forKey: Constants.chosenLanguage) as! NSDictionary
         let firstSectionItems = itemsDictionary.object(forKey: self.sectionKey) as! NSDictionary
-        print(Constants.chosenLanguage)
-        print(Constants.chosenLanguage)
 
-        self.navigationItem.title = firstSectionItems.object(forKey: "title") as! String
+        self.navigationItem.title = (firstSectionItems.object(forKey: "title") as! String).uppercased()
         let unsortedKeys = firstSectionItems.allKeys.filter() { ($0 as! String) != "title"}// ["a", "b"]
         var unsortedArray:[Int] = []
         
