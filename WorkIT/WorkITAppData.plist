@@ -368,6 +368,560 @@
 			<string>Bylem managerem.</string>
 		</dict>
 	</dict>
+	<key>RU</key>
+	<dict>
+		<key>section 4</key>
+		<dict>
+			<key>title</key>
+			<string>На рабочем месте</string>
+			<key>1</key>
+			<string>Доброе утро!</string>
+			<key>2</key>
+			<string>Хорошего вам дня!</string>
+			<key>3</key>
+			<string>Как дела?</string>
+			<key>4</key>
+			<string>Хорошо, спасибо!</string>
+			<key>5</key>
+			<string>Не понимаю.</string>
+			<key>6</key>
+			<string>Пожалуйста, повторите.</string>
+			<key>7</key>
+			<string>Можете сделать эту работу?</string>
+			<key>8</key>
+			<string>Без проблем!</string>
+			<key>9</key>
+			<string>Мне нужда помощь.</string>
+			<key>10</key>
+			<string>Я хотел бы (хотела бы) поговорить с управляющим.</string>
+			<key>11</key>
+			<string>Благодарю за информацию!</string>
+			<key>12</key>
+			<string>Могу ли я выйти во внеурочную смену на этой неделе?</string>
+			<key>13</key>
+			<string>Задачи я выполню вовремя.</string>
+			<key>14</key>
+			<string>Кто будет работать по этому проекту?</string>
+			<key>15</key>
+			<string>Когда крайний срок?</string>
+			<key>16</key>
+			<string>Мне надо после работы убрать рабочее место.</string>
+			<key>17</key>
+			<string>К сожалению, я сегодня не могу сделать эту работу.</string>
+			<key>18</key>
+			<string>К сожалению, я не умею водить автомобиль.</string>
+			<key>19</key>
+			<string>Не входить!</string>
+			<key>20</key>
+			<string>Внимание!</string>
+		</dict>
+		<key>section 3</key>
+		<dict>
+			<key>title</key>
+			<string>Собеседование при приеме на работу</string>
+			<key>1</key>
+			<string>Каковы ваши сильные стороны?</string>
+			<key>2</key>
+			<string>Я считаю себя надежным.</string>
+			<key>3</key>
+			<string>Имею желание учиться.</string>
+			<key>4</key>
+			<string>Хорошо работаю в коллективе.</string>
+			<key>5</key>
+			<string>Каковы ваши слабые стороны?</string>
+			<key>6</key>
+			<string>Не знаю хорошо языка.</string>
+			<key>7</key>
+			<string>Почему вы хотите работать в нашей компании?</string>
+			<key>8</key>
+			<string>Хочу приобрести больше опыта.</string>
+			<key>9</key>
+			<string>Хочу практиковать свою профессию.</string>
+			<key>10</key>
+			<string>Ради хорошей репутации вашей компании.</string>
+			<key>11</key>
+			<string>Уволился со своей последней работы, потому что нужно было покинуть страну.</string>
+			<key>12</key>
+			<string>Хотел (хотела) бы зарабатывать не меньше …</string>
+			<key>13</key>
+			<string>Какие умения и опыт вам требуются?</string>
+			<key>14</key>
+			<string>Сколько рабочих часов имеет рабочая неделя?</string>
+			<key>15</key>
+			<string>Когда надо приступить к работе?</string>
+			<key>16</key>
+			<string>Сколько дней приходится на годовой отпуск?</string>
+			<key>17</key>
+			<string>Какой трудовой контракт может предложить мне ваша компания?</string>
+			<key>18</key>
+			<string>Мы можем предложить вам постоянный контракт.</string>
+			<key>19</key>
+			<string>Продолжительность контракта составляет один год.</string>
+			<key>20</key>
+			<string>Пробный период составляет три месяца.</string>
+		</dict>
+		<key>section 2</key>
+		<dict>
+			<key>title</key>
+			<string>Как и где поступить на работу</string>
+			<key>1</key>
+			<string>Хочу подать заявление на работу.</string>
+			<key>2</key>
+			<string>У вас есть свободные рабочие места?</string>
+			<key>3</key>
+			<string>Могу ли я получить формуляр о приеме на работу?</string>
+			<key>4</key>
+			<string>Как подать заявление?</string>
+			<key>5</key>
+			<string>Имею образование в сфере информационных технологий.</string>
+			<key>6</key>
+			<string>Я работал в строительстве в течение четырех лет.</string>
+			<key>7</key>
+			<string>Имею квалификацию в спорте.</string>
+			<key>8</key>
+			<string>Имею профессиональный опыт как…</string>
+			<key>9</key>
+			<string>Имею хорошие коммуникативные умения.</string>
+			<key>10</key>
+			<string>Требуются руководитель.</string>
+			<key>11</key>
+			<string>Вы должны уметь работать как часть коллектива.
+</string>
+			<key>12</key>
+			<string>Вы должны иметь водительское удостоверение.</string>
+			<key>13</key>
+			<string>Вы должны хорошо уметь разрешать проблемы.</string>
+			<key>14</key>
+			<string>Вашей ответственностью будет выполнять общую работу</string>
+			<key>15</key>
+			<string>Предлагаем зарплату нетто в размере…</string>
+			<key>16</key>
+			<string>Можем предложить вам пробный период в течение одного месяца.</string>
+			<key>17</key>
+			<string>У вас должна быть медицинская страховка.</string>
+			<key>18</key>
+			<string>Вы должны иметь банковский счет.</string>
+			<key>19</key>
+			<string>Фактура включает НДС.</string>
+			<key>20</key>
+			<string>Необходимо платить налоги.</string>
+		</dict>
+		<key>section 1</key>
+		<dict>
+			<key>title</key>
+			<string>Szukam pracy</string>
+			<key>1</key>
+			<string>Хочу работать.</string>
+			<key>2</key>
+			<string>Где находится бюро по трудоустройству?</string>
+			<key>3</key>
+			<string>Где я могу искать работу?</string>
+			<key>4</key>
+			<string>Как я могу получить разрешение на работу?</string>
+			<key>5</key>
+			<string>Что мне требуется для поступления на работу?</string>
+			<key>6</key>
+			<string>Я работал в сфере услуг. 
+</string>
+			<key>7</key>
+			<string>Ищу работу в сфере сельское хозяйство.</string>
+			<key>8</key>
+			<string>Я являюсь строительным рабочим.</string>
+			<key>9</key>
+			<string>Я хотел бы стать электротехником.</string>
+			<key>10</key>
+			<string>Я хотел (хотела) бы стать шофером</string>
+			<key>11</key>
+			<string>Я отвечал за пятерых рабочих.</string>
+			<key>12</key>
+			<string>Требуется помощь при поиске работы.</string>
+			<key>13</key>
+			<string>Какие Интернет-страницы следует посетить?</string>
+			<key>14</key>
+			<string>У меня есть диплом о среднем образовании.</string>
+			<key>15</key>
+			<string>У меня диплом инженера.</string>
+			<key>16</key>
+			<string>Нуждаюсь в дополнительном обучении.</string>
+			<key>17</key>
+			<string>Хочу посещать языковые курсы.</string>
+			<key>18</key>
+			<string>Мне стоит улучшить умения говорить.</string>
+			<key>19</key>
+			<string>Я имею степень бакалавра.</string>
+			<key>20</key>
+			<string>Я был управляющим.</string>
+		</dict>
+	</dict>
+	<key>AR</key>
+	<dict>
+		<key>section 4</key>
+		<dict>
+			<key>title</key>
+			<string>في مكان العمل</string>
+			<key>1</key>
+			<string>صباح الخير!</string>
+			<key>2</key>
+			<string>أتمنى لك يوم سعيد!</string>
+			<key>3</key>
+			<string>كيف حالك؟</string>
+			<key>4</key>
+			<string>أنا بخير، شكرا!</string>
+			<key>5</key>
+			<string>لا أفهمك.</string>
+			<key>6</key>
+			<string>أعد من فضلك!</string>
+			<key>7</key>
+			<string>هل يمكنك الانتهاء من العمل؟</string>
+			<key>8</key>
+			<string>ليس هناك أى مشكلة!</string>
+			<key>9</key>
+			<string>انا بحاجة إلى مساعدة.</string>
+			<key>10</key>
+			<string>أود ان أتحدث إلى مدير.</string>
+			<key>11</key>
+			<string>شكرا على المعلومة!</string>
+			<key>12</key>
+			<string>هل يمكنني العمل فترة إضافية هذا الأسبوع؟</string>
+			<key>13</key>
+			<string>سوف أنجز المهام في الوقت المحدد.</string>
+			<key>14</key>
+			<string>من سيعمل في هذا المشروع؟</string>
+			<key>15</key>
+			<string>متى سيكون الموعد النهائى؟</string>
+			<key>16</key>
+			<string>عليك تنظيف مكان عملك بعد العمل.</string>
+			<key>17</key>
+			<string>لا أستطيع إنهاء العمل اليوم، أنا آسف.</string>
+			<key>18</key>
+			<string>أنا لا أستطيع القيادة، أنا آسف.</string>
+			<key>19</key>
+			<string>ابتعد!</string>
+			<key>20</key>
+			<string>كن حذرا!</string>
+		</dict>
+		<key>section 3</key>
+		<dict>
+			<key>title</key>
+			<string>Rozmowa kwalifikacyjna</string>
+			<key>1</key>
+			<string>Jakie sa Twoje mocne strony?</string>
+			<key>2</key>
+			<string>Jestem solidny</string>
+			<key>3</key>
+			<string>Mam chec nauki</string>
+			<key>4</key>
+			<string>Pracuje mi sie dobrze w tym zespole</string>
+			<key>5</key>
+			<string>Jakie sa Twoje slabe strony?</string>
+			<key>6</key>
+			<string>Nie mowie w tym jezyku dobrze</string>
+			<key>7</key>
+			<string>Dlaczego jestes zainteresowany praca w naszej firmie?</string>
+			<key>8</key>
+			<string>Chcialbym zdobyc wiecej doswiadczenia</string>
+			<key>9</key>
+			<string>Chce wykonywac moj zawod</string>
+			<key>10</key>
+			<string>ze wzgledu na dobra reputacje Twojej firmy</string>
+			<key>11</key>
+			<string>Opuscilem ostatnia prace poniewaz musialem wyjechac z  kraju</string>
+			<key>12</key>
+			<string>Chcialbym wynagrodzenie nie nizsze niz…</string>
+			<key>13</key>
+			<string>Jakch umiejetnosci I doswiadczenia szukasz?</string>
+			<key>14</key>
+			<string>Ile godzin pracy jest w tygodniu?</string>
+			<key>15</key>
+			<string>Jak jest data rozpoczecia?</string>
+			<key>16</key>
+			<string>Ile mi przysluguje urlopu w roku?</string>
+			<key>17</key>
+			<string>Jaki rodzaj pracy moze mi zaoferowac Twoja firma?</string>
+			<key>18</key>
+			<string>Mozemy zaoferowac Ci umowe na stale</string>
+			<key>19</key>
+			<string>Okre umowy obowiazauje na rok. </string>
+			<key>20</key>
+			<string>Okres probny jest trzymiesieczny.</string>
+		</dict>
+		<key>section 2</key>
+		<dict>
+			<key>title</key>
+			<string>كيف وأين التقدم بطلب للحصول على وظيفة</string>
+			<key>1</key>
+			<string>أريد أن التقدم بطلب للحصول على وظيفة.</string>
+			<key>2</key>
+			<string>هل لديك أي وظائف شاغرة؟</string>
+			<key>3</key>
+			<string>هل يمكنني الحصول على استمارة التقدم بطلب؟</string>
+			<key>4</key>
+			<string>كيف يمكنني تقديم الطلب؟</string>
+			<key>5</key>
+			<string>أنا حاصل على مؤهل علمي / تدريب في تكنولوجيا المعلومات</string>
+			<key>6</key>
+			<string>عملت في مجال البناء لأربع سنوات</string>
+			<key>7</key>
+			<string>عندي مؤهلات في الرياضة</string>
+			<key>8</key>
+			<string>لدي خبرة في العمل كـ ...</string>
+			<key>9</key>
+			<string>عندي مهارات جيدة في التواصل</string>
+			<key>10</key>
+			<string>نبحث عن مشرف</string>
+			<key>11</key>
+			<string>يجب أن تكون لديك القدرة على العمل كجزء فريق </string>
+			<key>12</key>
+			<string>يجب أن يكون لديك رخصة قيادة</string>
+			<key>13</key>
+			<string>يجب أن تتسم بقدرة جيدة على حل المشكلات</string>
+			<key>14</key>
+			<string>سوف يكون من مسؤولياتك  أداء مهام عامة</string>
+			<key>15</key>
+			<string>نقدم  راتب صافي ...</string>
+			<key>16</key>
+			<string>يمكننا ان نقدم لكم فترة اختبار مدتها شهر واحد.</string>
+			<key>17</key>
+			<string>يجب أن يكون عندك تأمين صحي.</string>
+			<key>18</key>
+			<string>يجب أن يكون عندك حساب مصرفي.</string>
+			<key>19</key>
+			<string>تشتمل الفاتورة على ضريبة القيمة المضافة.</string>
+			<key>20</key>
+			<string>يتوجب عليك دفع الضرائب.</string>
+		</dict>
+		<key>section 1</key>
+		<dict>
+			<key>title</key>
+			<string>Szukam pracy</string>
+			<key>1</key>
+			<string>اريد ان اعمل.</string>
+			<key>2</key>
+			<string>أين أجد مكتب التوظيف؟</string>
+			<key>3</key>
+			<string>أين يمكنني البحث عن وظيفة؟</string>
+			<key>4</key>
+			<string>كيف يمكنني الحصول على تصريح عمل؟</string>
+			<key>5</key>
+			<string>ما الذي أحتاجه لتقديم طلب للحصول على وظيفة؟</string>
+			<key>6</key>
+			<string>كنت أعمل في قطاع الخدمات</string>
+			<key>7</key>
+			<string>أبحث عن وظيفة في مجال الزراعة</string>
+			<key>8</key>
+			<string>أنا عامل بناء</string>
+			<key>9</key>
+			<string>أود أن أصبح كهربائي</string>
+			<key>10</key>
+			<string>قأود أن أصبح       سائ</string>
+			<key>11</key>
+			<string>كنت مسؤولا عن خمسة عمال.</string>
+			<key>12</key>
+			<string>أحتاج إلى مساعدة في البحث عن وظيفة.</string>
+			<key>13</key>
+			<string>ما هي المواقع التي يمكنني زيارتها على شبكة الإنترنت؟</string>
+			<key>14</key>
+			<string>لدي شهادة التعليم الثانوي.</string>
+			<key>15</key>
+			<string>لدي دبلوم في الهندسة.</string>
+			<key>16</key>
+			<string>أنا بحاجة إلى تدريب إضافي.</string>
+			<key>17</key>
+			<string>أرغب في حضور دورة في اللغة.</string>
+			<key>18</key>
+			<string>أحتاج إلى تحسين مهاراتي في المحادثة</string>
+			<key>19</key>
+			<string>أنا حاصل على درجة البكالوريوس</string>
+			<key>20</key>
+			<string>اعتدت أن أكون مديرا.</string>
+		</dict>
+	</dict>
+	<key>RO</key>
+	<dict>
+		<key>section 4</key>
+		<dict>
+			<key>title</key>
+			<string>La locul de muncă</string>
+			<key>1</key>
+			<string>Bună dimineața!</string>
+			<key>2</key>
+			<string>(Vă doresc) o zi bună!</string>
+			<key>3</key>
+			<string>Cum vă simţiţi?</string>
+			<key>4</key>
+			<string>Sunt bine, vă mulțumesc!</string>
+			<key>5</key>
+			<string>Nu înțeleg.</string>
+			<key>6</key>
+			<string>Vă rog să repetați.</string>
+			<key>7</key>
+			<string>Poți să termini sarcina?</string>
+			<key>8</key>
+			<string>Nicio problemă!</string>
+			<key>9</key>
+			<string>Am nevoie de ajutor.</string>
+			<key>10</key>
+			<string>Aș dori să vorbesc cu managerul.</string>
+			<key>11</key>
+			<string>Vă mulțumesc pentru informații!</string>
+			<key>12</key>
+			<string>Pot să lucrez o tură în plus săptămâna aceasta?</string>
+			<key>13</key>
+			<string>Voi indeplini sarcinile la timp.</string>
+			<key>14</key>
+			<string>Cine va lucra la acest proiect?</string>
+			<key>15</key>
+			<string>Când este termenul limită?</string>
+			<key>16</key>
+			<string>Trebuie să faceţi curat la locul de muncă, după terminarea muncii.</string>
+			<key>17</key>
+			<string>Nu pot să termin azi, îmi pare rău.</string>
+			<key>18</key>
+			<string>Nu pot conduce, îmi pare rău.</string>
+			<key>19</key>
+			<string>Păstraţi distanţa!</string>
+			<key>20</key>
+			<string>Fiţi atenţi!</string>
+		</dict>
+		<key>section 3</key>
+		<dict>
+			<key>title</key>
+			<string>Interviu pentru obţinerea unui loc de muncă</string>
+			<key>1</key>
+			<string>Care sunt punctele tale forte?</string>
+			<key>2</key>
+			<string>Sunt sigur</string>
+			<key>3</key>
+			<string>Sunt dispus să învăţ</string>
+			<key>4</key>
+			<string>Lucrez bine în echipă</string>
+			<key>5</key>
+			<string>Care sunt punctele dumneavoastră slabe?</string>
+			<key>6</key>
+			<string>Nu vorbesc bine limba.</string>
+			<key>7</key>
+			<string>De ce vă interesează să lucraţi pentru compania noastră?</string>
+			<key>8</key>
+			<string>Aş dori câștig mai multă experiență</string>
+			<key>9</key>
+			<string>Aş dori să-mi practic profesia </string>
+			<key>10</key>
+			<string>datorită bunei reputații a companiei dvs.</string>
+			<key>11</key>
+			<string>Am demisionat de la ultimul meu loc de muncă, deoarece a trebuit să plec din țară</string>
+			<key>12</key>
+			<string>Aș dori un salariu mai mare de ...</string>
+			<key>13</key>
+			<string>Ce tip de abilități și experiență căutați?</string>
+			<key>14</key>
+			<string>Câte ore de lucru sunt pe săptămână?</string>
+			<key>15</key>
+			<string>Când se începe?</string>
+			<key>16</key>
+			<string>Câte zile de concediu anual am?</string>
+			<key>17</key>
+			<string>Ce fel de contract de muncă îmi poate oferi compania dumneavoastră?</string>
+			<key>18</key>
+			<string>Vă putem oferi contract permanent</string>
+			<key>19</key>
+			<string>Perioada contractului este de un an.</string>
+			<key>20</key>
+			<string>Perioada de probă este de trei luni.</string>
+		</dict>
+		<key>section 2</key>
+		<dict>
+			<key>title</key>
+			<string>Cum și unde să candidataţi pentru un loc de muncă</string>
+			<key>1</key>
+			<string>Vreau să candidatez pentru un loc de muncă.</string>
+			<key>2</key>
+			<string>Aveţi posturi vacante?</string>
+			<key>3</key>
+			<string>Pot obține un formular de cerere?</string>
+			<key>4</key>
+			<string>Cum pot aplica?</string>
+			<key>5</key>
+			<string>Am studii / studii de formare în IT
+</string>
+			<key>6</key>
+			<string>Am lucrat în sectorul de construcții pe 4 ani
+</string>
+			<key>7</key>
+			<string>Am o calificare în sportul</string>
+			<key>8</key>
+			<string>Am experiență de lucru ca...</string>
+			<key>9</key>
+			<string>Deţin bune abilități de comunicare
+</string>
+			<key>10</key>
+			<string>Căutam un şef de divizie</string>
+			<key>11</key>
+			<string>Trebuie să fiţi capabil să să lucraţi în echipă</string>
+			<key>12</key>
+			<string>Trebuie să aveți permis de conducere</string>
+			<key>13</key>
+			<string>Trebuie să fiţi bun lasoluţionarea problemelor</string>
+			<key>14</key>
+			<string>Responsabilitățile dumneavoastră vor fi să îndepliniţi sarcini de lucru generale</string>
+			<key>15</key>
+			<string>Vă oferim un salariu net de ...</string>
+			<key>16</key>
+			<string>Vă putem oferi o perioadă de probă de o lună.</string>
+			<key>17</key>
+			<string>Trebuie să aveţi asigurare de sănătate.</string>
+			<key>18</key>
+			<string>Trebuie să aveți un cont bancar.</string>
+			<key>19</key>
+			<string>Factura include TVA.</string>
+			<key>20</key>
+			<string>Trebuie să plătiţi taxele.</string>
+		</dict>
+		<key>section 1</key>
+		<dict>
+			<key>title</key>
+			<string>Szukam pracy</string>
+			<key>1</key>
+			<string>Vreau să lucrez.</string>
+			<key>2</key>
+			<string>Unde găsesc biroul de ocupare a forţei muncă?</string>
+			<key>3</key>
+			<string>Unde pot găsi de lucru?</string>
+			<key>4</key>
+			<string>Cum pot obține un permis de muncă?</string>
+			<key>5</key>
+			<string>De ce am nevoie pentru a candidata pentru un loc de muncă?</string>
+			<key>6</key>
+			<string>Am lucrat în sectorul de servicii</string>
+			<key>7</key>
+			<string>Sunt în căutarea unui loc de muncă în agricultură</string>
+			<key>8</key>
+			<string>Sunt un lucrător în construcţii</string>
+			<key>9</key>
+			<string>Aş dori să devin electrician</string>
+			<key>10</key>
+			<string>Aş dori să devin ţofer</string>
+			<key>11</key>
+			<string>Am fost responsabil de/Am coordonat cinci muncitori.</string>
+			<key>12</key>
+			<string>Am nevoie de ajutor pentru a găsi de lucru.</string>
+			<key>13</key>
+			<string>Ce site-uri pot consulta?</string>
+			<key>14</key>
+			<string>Am o diplomă de liceu.</string>
+			<key>15</key>
+			<string>Am o diplomă în inginerie.</string>
+			<key>16</key>
+			<string>Am nevoie de formare suplimentară.</string>
+			<key>17</key>
+			<string>Vreau să participe la un curs de limbă.</string>
+			<key>18</key>
+			<string>Trebuie să-mi îmbunătățesc abilitățile de comunicare orală</string>
+			<key>19</key>
+			<string>Am o diplomă de licenţă</string>
+			<key>20</key>
+			<string>Am fost manager.</string>
+		</dict>
+	</dict>
 	<key>BG</key>
 	<dict>
 		<key>section 4</key>

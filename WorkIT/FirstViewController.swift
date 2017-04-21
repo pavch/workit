@@ -10,7 +10,7 @@ import UIKit
 
 class FirstViewController: LanguageHolder, UITableViewDataSource, UITableViewDelegate  {
     
-    var phrases: [String] = [];
+    var phrases: [String] = []; 
     var translations: [String] = [];
     var workitData : NSDictionary! = [:];
 
