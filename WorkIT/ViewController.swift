@@ -243,6 +243,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
 //        self.setupAudioPlayer()
         
         // play track
+        self.setupTrack(index: self.currentTrackIndex)
         self.playTrack()
     }
     
