@@ -58,7 +58,14 @@
                             <constraint firstAttribute="trailing" secondItem="X4Z-Dr-tDv" secondAttribute="trailing" id="dUR-Rc-cSC"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="bEs-Ht-nlp"/>
+                    <navigationItem key="navigationItem" id="bEs-Ht-nlp">
+                        <barButtonItem key="leftBarButtonItem" image="settings" style="plain" id="CiX-tg-JD8">
+                            <inset key="imageInsets" minX="6" minY="6" maxX="6" maxY="6"/>
+                            <connections>
+                                <action selector="settingsTapped:" destination="9pv-A4-QxB" id="eVD-hj-BSr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -147,7 +154,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HLN-RL-fb1" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Get ready" image="first" id="acW-dT-cKf"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="aw6-uT-nOG">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="aw6-uT-nOG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.45308438246255456" green="0.68893158140863853" blue="0.9909357034698697" alpha="1" colorSpace="calibratedRGB"/>
@@ -173,7 +180,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a9J-Tp-O66" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Candidate" image="second" id="cPa-gy-q4n"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="7LR-es-Twf">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="7LR-es-Twf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.47450980390000003" green="0.027450980390000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -300,8 +307,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="all" translatesAutoresizingMaskIntoConstraints="NO" id="tAT-gJ-CFu">
+                                <rect key="frame" x="0.0" y="61" width="375" height="382"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the language you speak:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ab5-ac-8bB">
-                                <rect key="frame" x="50" y="244" width="274" height="41"/>
+                                <rect key="frame" x="50" y="28" width="274" height="41"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -315,31 +325,28 @@
                                     <segue destination="49e-Tb-3d3" kind="show" identifier="showTabBar" id="6ii-PP-2IP"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tec-so-OVz">
-                                <rect key="frame" x="0.0" y="16" width="375" height="183"/>
-                            </imageView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4kE-uo-c8f">
-                                <rect key="frame" x="0.0" y="244" width="375" height="308"/>
+                                <rect key="frame" x="0.0" y="358" width="375" height="223"/>
                             </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4kE-uo-c8f" firstAttribute="top" secondItem="neo-15-dJP" secondAttribute="bottom" constant="224" id="8Pn-vB-wfg"/>
-                            <constraint firstAttribute="trailing" secondItem="Tec-so-OVz" secondAttribute="trailing" id="A4h-0t-vxC"/>
+                            <constraint firstItem="4kE-uo-c8f" firstAttribute="top" secondItem="neo-15-dJP" secondAttribute="bottom" constant="338" id="8Pn-vB-wfg"/>
+                            <constraint firstAttribute="trailing" secondItem="tAT-gJ-CFu" secondAttribute="trailing" id="9Cg-IQ-1h2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ab5-ac-8bB" secondAttribute="trailing" constant="35" id="Cw1-1a-Uz6"/>
-                            <constraint firstItem="Ab5-ac-8bB" firstAttribute="top" secondItem="neo-15-dJP" secondAttribute="bottom" constant="224" id="FnK-sf-Pk8"/>
+                            <constraint firstItem="Ab5-ac-8bB" firstAttribute="top" secondItem="neo-15-dJP" secondAttribute="bottom" constant="8" id="FnK-sf-Pk8"/>
                             <constraint firstAttribute="trailing" secondItem="4kE-uo-c8f" secondAttribute="trailing" id="NfT-Rw-T5B"/>
-                            <constraint firstItem="f80-Cy-AyY" firstAttribute="top" secondItem="4kE-uo-c8f" secondAttribute="bottom" constant="115" id="O8T-kg-Qrn"/>
-                            <constraint firstItem="VuW-FV-GQg" firstAttribute="top" secondItem="4kE-uo-c8f" secondAttribute="bottom" constant="37" id="a8W-f6-5k9"/>
-                            <constraint firstItem="Tec-so-OVz" firstAttribute="top" secondItem="tvl-j2-kVc" secondAttribute="top" constant="16" id="ciZ-F4-xdl"/>
-                            <constraint firstItem="Tec-so-OVz" firstAttribute="leading" secondItem="tvl-j2-kVc" secondAttribute="leading" id="eIE-Gi-L9f"/>
+                            <constraint firstItem="f80-Cy-AyY" firstAttribute="top" secondItem="4kE-uo-c8f" secondAttribute="bottom" constant="86" id="O8T-kg-Qrn"/>
+                            <constraint firstItem="VuW-FV-GQg" firstAttribute="top" secondItem="4kE-uo-c8f" secondAttribute="bottom" constant="8" id="a8W-f6-5k9"/>
+                            <constraint firstItem="tAT-gJ-CFu" firstAttribute="top" secondItem="neo-15-dJP" secondAttribute="bottom" constant="41" id="bFR-Un-tTX"/>
                             <constraint firstItem="f80-Cy-AyY" firstAttribute="top" secondItem="VuW-FV-GQg" secondAttribute="bottom" constant="31" id="h8n-In-b7P"/>
-                            <constraint firstItem="f80-Cy-AyY" firstAttribute="top" secondItem="Ab5-ac-8bB" secondAttribute="bottom" constant="382" id="kga-Fj-eOm"/>
+                            <constraint firstItem="f80-Cy-AyY" firstAttribute="top" secondItem="Ab5-ac-8bB" secondAttribute="bottom" constant="598" id="kga-Fj-eOm"/>
                             <constraint firstItem="VuW-FV-GQg" firstAttribute="leading" secondItem="tvl-j2-kVc" secondAttribute="leadingMargin" id="mby-cE-ggi"/>
                             <constraint firstItem="Ab5-ac-8bB" firstAttribute="leading" secondItem="tvl-j2-kVc" secondAttribute="leadingMargin" constant="34" id="pZ3-5Z-1Un"/>
                             <constraint firstItem="4kE-uo-c8f" firstAttribute="leading" secondItem="tvl-j2-kVc" secondAttribute="leading" id="rYC-vM-Mfv"/>
                             <constraint firstItem="VuW-FV-GQg" firstAttribute="trailing" secondItem="tvl-j2-kVc" secondAttribute="trailingMargin" id="s4f-yg-fEU"/>
-                            <constraint firstItem="Ab5-ac-8bB" firstAttribute="top" secondItem="Tec-so-OVz" secondAttribute="bottom" constant="45" id="ylv-x9-b5w"/>
+                            <constraint firstItem="tAT-gJ-CFu" firstAttribute="leading" secondItem="tvl-j2-kVc" secondAttribute="leading" id="xh1-vF-uYg"/>
+                            <constraint firstItem="VuW-FV-GQg" firstAttribute="top" secondItem="tAT-gJ-CFu" secondAttribute="bottom" constant="146" id="zAo-6n-QKb"/>
                         </constraints>
                     </view>
                     <connections>
@@ -358,7 +365,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KE1-Ps-nMs" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Work It" image="forth" id="AYn-yu-xci"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="FNb-Bv-jnU">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="FNb-Bv-jnU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -379,7 +386,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bkI-Ev-VqJ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Interview" image="third" id="gBe-QW-LOf"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="LJh-6S-9LY">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="LJh-6S-9LY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -524,10 +531,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="all" width="2029" height="2029"/>
         <image name="first" width="612" height="792"/>
         <image name="forth" width="612" height="792"/>
-        <image name="people.png" width="1753" height="853"/>
         <image name="second" width="612" height="792"/>
+        <image name="settings" width="38" height="38"/>
         <image name="third" width="612" height="792"/>
     </resources>
     <color key="tintColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>

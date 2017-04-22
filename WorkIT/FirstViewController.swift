@@ -19,12 +19,19 @@ class FirstViewController: LanguageHolder, UITableViewDataSource, UITableViewDel
     var translateToLanguage: String = Constants.englishLangKey
 //    var mainLanguage: String = Constants.englishLangKey
     var sectionKey: String = Constants.sectionFirstKey
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         loadPhrases()
+//        self.settingsButton.action = #selector(settingsTapped)
         // Do any additional setup after loading the view, typically from a nib.
+    }
+
+    @IBAction func settingsTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: {})
+    }
+    @IBAction func settingButtonTapped(_ sender: Any) {
+
+//       self.navigationController.pop
     }
 
     func loadPhrases(){

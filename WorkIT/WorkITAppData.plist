@@ -368,6 +368,189 @@
 			<string>Bylem managerem.</string>
 		</dict>
 	</dict>
+	<key>RO</key>
+	<dict>
+		<key>section 4</key>
+		<dict>
+			<key>title</key>
+			<string>w miejscu pracy</string>
+			<key>1</key>
+			<string>Dzien dobry do 12.00 w dzien</string>
+			<key>2</key>
+			<string>Milego dnia!</string>
+			<key>3</key>
+			<string>Jak sie masz? Co u Ciebie slychac?</string>
+			<key>4</key>
+			<string>Mam sie dobrze. Dziekuje!</string>
+			<key>5</key>
+			<string>Nie rozumiem.</string>
+			<key>6</key>
+			<string>Prosze powtorz.</string>
+			<key>7</key>
+			<string>Czy mozeszz juz skonczyc prace?</string>
+			<key>8</key>
+			<string>Nie ma problemu!</string>
+			<key>9</key>
+			<string>Potrzebuje pomocy.</string>
+			<key>10</key>
+			<string>Chcialbym rozmawiac z managerem/kierownikiem.</string>
+			<key>11</key>
+			<string>Dziekuje za informacje!</string>
+			<key>12</key>
+			<string>Czy moge przepracowac dodatkowe zmiane?</string>
+			<key>13</key>
+			<string>Wykonam prace o czasie.</string>
+			<key>14</key>
+			<string>Kto bedzie pracowl przy tym projekcie.</string>
+			<key>15</key>
+			<string>Kiedy jest termin koncowy ?</string>
+			<key>16</key>
+			<string>Musisz posprzatac swoje miejsce pracy po pracy.</string>
+			<key>17</key>
+			<string>Nie moge zakonczyc dzisiaj tej pracy, przepraszam.</string>
+			<key>18</key>
+			<string>Nie potrafie prowadzic auta, przepraszam.</string>
+			<key>19</key>
+			<string>Trzymaj sie z daleka!</string>
+			<key>20</key>
+			<string>Badz ostrozny!</string>
+		</dict>
+		<key>section 3</key>
+		<dict>
+			<key>title</key>
+			<string>Rozmowa kwalifikacyjna</string>
+			<key>1</key>
+			<string>Jakie sa Twoje mocne strony?</string>
+			<key>2</key>
+			<string>Jestem solidny</string>
+			<key>3</key>
+			<string>Mam chec nauki</string>
+			<key>4</key>
+			<string>Pracuje mi sie dobrze w tym zespole</string>
+			<key>5</key>
+			<string>Jakie sa Twoje slabe strony?</string>
+			<key>6</key>
+			<string>Nie mowie w tym jezyku dobrze</string>
+			<key>7</key>
+			<string>Dlaczego jestes zainteresowany praca w naszej firmie?</string>
+			<key>8</key>
+			<string>Chcialbym zdobyc wiecej doswiadczenia</string>
+			<key>9</key>
+			<string>Chce wykonywac moj zawod</string>
+			<key>10</key>
+			<string>ze wzgledu na dobra reputacje Twojej firmy</string>
+			<key>11</key>
+			<string>Opuscilem ostatnia prace poniewaz musialem wyjechac z  kraju</string>
+			<key>12</key>
+			<string>Chcialbym wynagrodzenie nie nizsze niz…</string>
+			<key>13</key>
+			<string>Jakch umiejetnosci I doswiadczenia szukasz?</string>
+			<key>14</key>
+			<string>Ile godzin pracy jest w tygodniu?</string>
+			<key>15</key>
+			<string>Jak jest data rozpoczecia?</string>
+			<key>16</key>
+			<string>Ile mi przysluguje urlopu w roku?</string>
+			<key>17</key>
+			<string>Jaki rodzaj pracy moze mi zaoferowac Twoja firma?</string>
+			<key>18</key>
+			<string>Mozemy zaoferowac Ci umowe na stale</string>
+			<key>19</key>
+			<string>Okre umowy obowiazauje na rok. </string>
+			<key>20</key>
+			<string>Okres probny jest trzymiesieczny.</string>
+		</dict>
+		<key>section 2</key>
+		<dict>
+			<key>title</key>
+			<string>Jak I gdzie aplikowac o prace</string>
+			<key>1</key>
+			<string>Chce aplikowac o prace</string>
+			<key>2</key>
+			<string>Czy sa jakies dostepne prace?</string>
+			<key>3</key>
+			<string>Czy moge otrzymac formularz aplikacyjny?</string>
+			<key>4</key>
+			<string>Jak moge dostarczyc aplikacje?</string>
+			<key>5</key>
+			<string>Mam wyksztalcenie / doswiadczenie w informatyce</string>
+			<key>6</key>
+			<string>Przez cztery lata  pracowalem w branzy budowlanej</string>
+			<key>7</key>
+			<string>Mam kwalifikacje zawodowe w sporcie</string>
+			<key>8</key>
+			<string>Mam nastepujace doswiadczenie jako…</string>
+			<key>9</key>
+			<string>Szukamy kogos z dobra komunikacja</string>
+			<key>10</key>
+			<string>Szukamy przelozonego (kierownika)</string>
+			<key>11</key>
+			<string>Musisz umiec pracowac w grupie</string>
+			<key>12</key>
+			<string>Wymagane jest prawo jazdy.</string>
+			<key>13</key>
+			<string>Musisz byc dobry w rozwiazywaniu problemow</string>
+			<key>14</key>
+			<string>Twoimi obowiazkami beda wykonanie ogolnej pracy</string>
+			<key>15</key>
+			<string>Oferujemy wynagrodzenie netto..</string>
+			<key>16</key>
+			<string>Mozemy Ci zaoferowac okres probny na okres jednego miesiaca.</string>
+			<key>17</key>
+			<string>Musisz posiadac ubezpieczenie zdrowotne.</string>
+			<key>18</key>
+			<string>Musisz posiadac konto bankowe.</string>
+			<key>19</key>
+			<string>Faktura zawiera podatek VAT.</string>
+			<key>20</key>
+			<string>Musisz placic podatki.</string>
+		</dict>
+		<key>section 1</key>
+		<dict>
+			<key>title</key>
+			<string>Szukam pracy</string>
+			<key>1</key>
+			<string>Chce prace.</string>
+			<key>2</key>
+			<string>Gdzie znajde biuro rekrutujace do pracy?</string>
+			<key>3</key>
+			<string>Gdzie moge szukac pracy?</string>
+			<key>4</key>
+			<string>Jak moge otrzymac pozwolenie na prace?</string>
+			<key>5</key>
+			<string>Co musze zrobic, aby aplikowac o prace?</string>
+			<key>6</key>
+			<string>Pracowalem w sektorze uslugowym</string>
+			<key>7</key>
+			<string>Szukam pracy w rolnictwie.</string>
+			<key>8</key>
+			<string>Jestem budowlancem</string>
+			<key>9</key>
+			<string>Chcialbym byc elektrykiem.</string>
+			<key>10</key>
+			<string>Chcial(a)bym zostac kierowca</string>
+			<key>11</key>
+			<string>Bylem odpowiedzialny za pieciu pracownikow.</string>
+			<key>12</key>
+			<string>Potrzebuje pomocy w znalezieniu pracy.</string>
+			<key>13</key>
+			<string>Jaka strone internetowa moge odwiedzic?</string>
+			<key>14</key>
+			<string>Posiadam  dyplom ukonczenia szkoly sredniej.</string>
+			<key>15</key>
+			<string>Posiadam dyplom ukonczenia szkoly technicznej.</string>
+			<key>16</key>
+			<string>Potrzebuje dodatkowego szkolenia.</string>
+			<key>17</key>
+			<string>Chce uczeszczac na kurs jezykowy.</string>
+			<key>18</key>
+			<string>Musze  pracowac nad mowa w jezyku angielskim</string>
+			<key>19</key>
+			<string>Mam tytul licencjata</string>
+			<key>20</key>
+			<string>Bylem managerem.</string>
+		</dict>
+	</dict>
 	<key>BG</key>
 	<dict>
 		<key>section 4</key>

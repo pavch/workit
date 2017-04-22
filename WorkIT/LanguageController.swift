@@ -65,4 +65,10 @@ class LanguageController: UIViewController,
         let myTitle = NSAttributedString(string: titleData, attributes: [NSFontAttributeName:UIFont(name: "Georgia", size: 15.0)!,NSForegroundColorAttributeName:Constants.textColor])
         return myTitle
     }
+    
+    
+    
+    @IBAction func cancelToLanguageViewController(segue:UIStoryboardSegue) {
+        
+    }
 }
