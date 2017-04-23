@@ -414,11 +414,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="track translation comes here" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NOC-qW-wsW">
-                                <rect key="frame" x="20" y="359" width="335" height="60.5"/>
+                                <rect key="frame" x="20" y="359" width="335" height="76"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="OIB-9n-Grk"/>
+                                    <constraint firstAttribute="height" constant="76" id="OIB-9n-Grk"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
                                 <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -454,7 +454,7 @@
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 / 5 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfn-8b-cRI">
-                                <rect key="frame" x="24" y="343" width="335" height="40"/>
+                                <rect key="frame" x="24" y="344" width="335" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="yIQ-eI-AaS"/>
                                 </constraints>
@@ -462,18 +462,18 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NJY-wh-uNT">
+                                <rect key="frame" x="0.0" y="101" width="375" height="234.5"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="track title come here" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CKS-Ul-PC6">
-                                <rect key="frame" x="24" y="418" width="335" height="40"/>
+                                <rect key="frame" x="24" y="434" width="335" height="75"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="jxF-a9-dLZ"/>
+                                    <constraint firstAttribute="height" constant="75" id="jxF-a9-dLZ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
                                 <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NJY-wh-uNT">
-                                <rect key="frame" x="0.0" y="101" width="375" height="233.5"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -487,8 +487,8 @@
                             <constraint firstItem="mfn-8b-cRI" firstAttribute="top" secondItem="NJY-wh-uNT" secondAttribute="bottom" constant="8.5" id="afd-Eg-G7T"/>
                             <constraint firstAttribute="trailing" secondItem="CKS-Ul-PC6" secondAttribute="trailing" constant="16" id="ate-Kc-yXC"/>
                             <constraint firstItem="mfn-8b-cRI" firstAttribute="leading" secondItem="3en-9p-IQx" secondAttribute="leading" constant="24" id="bTL-hG-NDC"/>
-                            <constraint firstItem="NOC-qW-wsW" firstAttribute="top" secondItem="mfn-8b-cRI" secondAttribute="bottom" constant="-24" id="gP1-We-sD9"/>
-                            <constraint firstItem="NOC-qW-wsW" firstAttribute="centerY" secondItem="3en-9p-IQx" secondAttribute="centerY" constant="55.75" id="gy0-gb-cpy"/>
+                            <constraint firstItem="NOC-qW-wsW" firstAttribute="top" secondItem="mfn-8b-cRI" secondAttribute="bottom" constant="-25" id="gP1-We-sD9"/>
+                            <constraint firstItem="NOC-qW-wsW" firstAttribute="centerY" secondItem="3en-9p-IQx" secondAttribute="centerY" constant="63.5" id="gy0-gb-cpy"/>
                             <constraint firstAttribute="trailing" secondItem="NvZ-YM-qm4" secondAttribute="trailing" id="hpH-9E-QR6"/>
                             <constraint firstItem="QXE-bs-K3S" firstAttribute="top" secondItem="NvZ-YM-qm4" secondAttribute="bottom" id="nPH-zY-pmS"/>
                             <constraint firstAttribute="trailing" secondItem="mfn-8b-cRI" secondAttribute="trailing" constant="16" id="vjF-YB-AjM"/>

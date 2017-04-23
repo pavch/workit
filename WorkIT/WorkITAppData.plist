@@ -509,7 +509,7 @@
 		<key>section 1</key>
 		<dict>
 			<key>title</key>
-			<string>Szukam pracy</string>
+			<string>Готовится к работе</string>
 			<key>1</key>
 			<string>Хочу работать.</string>
 			<key>2</key>
@@ -648,7 +648,7 @@
 		<key>section 1</key>
 		<dict>
 			<key>title</key>
-			<string>Szukam pracy</string>
+			<string>الاستعداد للعمل</string>
 			<key>1</key>
 			<string>اريد ان اعمل.</string>
 			<key>2</key>
@@ -879,47 +879,47 @@
 		<key>section 1</key>
 		<dict>
 			<key>title</key>
-			<string>Szukam pracy</string>
+			<string>A se pregăti pentru un loc de muncă</string>
 			<key>1</key>
-			<string>Chce prace.</string>
+			<string>Vreau să lucrez.</string>
 			<key>2</key>
-			<string>Gdzie znajde biuro rekrutujace do pracy?</string>
+			<string>Unde găsesc biroul de ocupare a forţei muncă?</string>
 			<key>3</key>
-			<string>Gdzie moge szukac pracy?</string>
+			<string>Unde pot găsi de lucru?</string>
 			<key>4</key>
-			<string>Jak moge otrzymac pozwolenie na prace?</string>
+			<string>Cum pot obține un permis de muncă?</string>
 			<key>5</key>
-			<string>Co musze zrobic, aby aplikowac o prace?</string>
+			<string>De ce am nevoie pentru a candidata pentru un loc de muncă?</string>
 			<key>6</key>
-			<string>Pracowalem w sektorze uslugowym</string>
+			<string>Am lucrat în sectorul de servicii</string>
 			<key>7</key>
-			<string>Szukam pracy w rolnictwie.</string>
+			<string>Sunt în căutarea unui loc de muncă în agricultură</string>
 			<key>8</key>
-			<string>Jestem budowlancem</string>
+			<string>Sunt un lucrător în construcţii</string>
 			<key>9</key>
-			<string>Chcialbym byc elektrykiem.</string>
+			<string>Aş dori să devin electrician</string>
 			<key>10</key>
-			<string>Chcial(a)bym zostac kierowca</string>
+			<string>Aş dori să devin ţofer</string>
 			<key>11</key>
-			<string>Bylem odpowiedzialny za pieciu pracownikow.</string>
+			<string>Am fost responsabil de/Am coordonat cinci muncitori.</string>
 			<key>12</key>
-			<string>Potrzebuje pomocy w znalezieniu pracy.</string>
+			<string>Am nevoie de ajutor pentru a găsi de lucru.</string>
 			<key>13</key>
-			<string>Jaka strone internetowa moge odwiedzic?</string>
+			<string>Ce site-uri pot consulta?</string>
 			<key>14</key>
-			<string>Posiadam  dyplom ukonczenia szkoly sredniej.</string>
+			<string>Am o diplomă de liceu.</string>
 			<key>15</key>
-			<string>Posiadam dyplom ukonczenia szkoly technicznej.</string>
+			<string>Am o diplomă în inginerie.</string>
 			<key>16</key>
-			<string>Potrzebuje dodatkowego szkolenia.</string>
+			<string>Am nevoie de formare suplimentară.</string>
 			<key>17</key>
-			<string>Chce uczeszczac na kurs jezykowy.</string>
+			<string>Vreau să participe la un curs de limbă.</string>
 			<key>18</key>
-			<string>Musze  pracowac nad mowa w jezyku angielskim</string>
+			<string>Trebuie să-mi îmbunătățesc abilitățile de comunicare orală</string>
 			<key>19</key>
-			<string>Mam tytul licencjata</string>
+			<string>Am o diplomă de licenţă</string>
 			<key>20</key>
-			<string>Bylem managerem.</string>
+			<string>Am fost manager.</string>
 		</dict>
 	</dict>
 	<key>BG</key>
