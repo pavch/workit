@@ -453,9 +453,6 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NJY-wh-uNT">
-                                <rect key="frame" x="0.0" y="64" width="375" height="233.5"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 / 5 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfn-8b-cRI">
                                 <rect key="frame" x="24" y="343" width="335" height="40"/>
                                 <constraints>
@@ -474,17 +471,20 @@
                                 <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NJY-wh-uNT">
+                                <rect key="frame" x="0.0" y="101" width="375" height="233.5"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="NOC-qW-wsW" secondAttribute="trailing" constant="20" id="1FT-1I-pmb"/>
-                            <constraint firstItem="NJY-wh-uNT" firstAttribute="top" secondItem="3en-9p-IQx" secondAttribute="top" constant="64" id="41u-0o-0gw"/>
+                            <constraint firstItem="NJY-wh-uNT" firstAttribute="top" secondItem="3en-9p-IQx" secondAttribute="top" constant="101" id="41u-0o-0gw"/>
                             <constraint firstItem="CKS-Ul-PC6" firstAttribute="leading" secondItem="3en-9p-IQx" secondAttribute="leading" constant="24" id="DgU-vd-A0A"/>
                             <constraint firstItem="NJY-wh-uNT" firstAttribute="leading" secondItem="3en-9p-IQx" secondAttribute="leading" id="FWm-lH-nkw"/>
                             <constraint firstItem="NOC-qW-wsW" firstAttribute="leading" secondItem="3en-9p-IQx" secondAttribute="leading" constant="20" id="SXv-wx-29T"/>
                             <constraint firstItem="CKS-Ul-PC6" firstAttribute="top" secondItem="NOC-qW-wsW" secondAttribute="bottom" constant="-1.5" id="UyS-nO-9hc"/>
                             <constraint firstItem="NvZ-YM-qm4" firstAttribute="leading" secondItem="3en-9p-IQx" secondAttribute="leading" id="WIW-Zh-zSY"/>
-                            <constraint firstItem="mfn-8b-cRI" firstAttribute="top" secondItem="NJY-wh-uNT" secondAttribute="bottom" constant="45.5" id="afd-Eg-G7T"/>
+                            <constraint firstItem="mfn-8b-cRI" firstAttribute="top" secondItem="NJY-wh-uNT" secondAttribute="bottom" constant="8.5" id="afd-Eg-G7T"/>
                             <constraint firstAttribute="trailing" secondItem="CKS-Ul-PC6" secondAttribute="trailing" constant="16" id="ate-Kc-yXC"/>
                             <constraint firstItem="mfn-8b-cRI" firstAttribute="leading" secondItem="3en-9p-IQx" secondAttribute="leading" constant="24" id="bTL-hG-NDC"/>
                             <constraint firstItem="NOC-qW-wsW" firstAttribute="top" secondItem="mfn-8b-cRI" secondAttribute="bottom" constant="-24" id="gP1-We-sD9"/>

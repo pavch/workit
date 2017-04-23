@@ -16,7 +16,7 @@ class ForthViewController: LanguageHolder, UITableViewDataSource, UITableViewDel
     
     let cellIdentifier = "CellIdentifier"
     var player: ViewController? = nil
-    var translateToLanguage: String = Constants.englishLangKey
+    var translateToLanguage: String = Constants.bgLangKey
 //    var mainLanguage: String = Constants.englishLangKey
     var sectionKey: String = Constants.sectionForthKey
     

@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import SpriteKit
 
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
@@ -75,7 +76,14 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     // MARK: - View functions
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.imageView.image = UIImage(named: "section\(self.section)")
+//        let jeremyGif = UIImage.gif(name: "Scene-II")
+        self.imageView.loadGif(name: "scene-\(self.section)")
+
+//        self.imageView.image = UIImage(named: "section\(self.section)")
+//        let sheet = SpriteSheet(texture: SKTexture(imageNamed: "spritesheet"), rows: 1, columns: 8, spacing: 1, margin: 1)
+//        let sprite = SKSpriteNode(texture: sheet.textureForColumn(column: 0, row: 0))
+//        let scene = GameScene(size: self.imageView.bounds.size)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
