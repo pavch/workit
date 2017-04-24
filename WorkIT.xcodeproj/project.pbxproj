@@ -25,12 +25,17 @@
 		E151B7841E636EAD0019CB28 /* section4.png in Resources */ = {isa = PBXBuildFile; fileRef = E151B7811E636EAD0019CB28 /* section4.png */; };
 		E151B7881E6378AC0019CB28 /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = E151B7871E6378AC0019CB28 /* people.png */; };
 		E151B78A1E6383050019CB28 /* erasmus-plus-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E151B7891E6383050019CB28 /* erasmus-plus-logo.jpg */; };
+		E19B81431EAD5D1600B4DBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19B81421EAD5D1600B4DBB2 /* Assets.xcassets */; };
 		E1AE67101E37DDF200EF6599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE670F1E37DDF200EF6599 /* AppDelegate.swift */; };
 		E1AE67121E37DDF200EF6599 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE67111E37DDF200EF6599 /* FirstViewController.swift */; };
 		E1AE67141E37DDF200EF6599 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE67131E37DDF200EF6599 /* SecondViewController.swift */; };
 		E1AE67171E37DDF200EF6599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AE67151E37DDF200EF6599 /* Main.storyboard */; };
-		E1AE67191E37DDF200EF6599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AE67181E37DDF200EF6599 /* Assets.xcassets */; };
 		E1AE671C1E37DDF200EF6599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AE671A1E37DDF200EF6599 /* LaunchScreen.storyboard */; };
+		E1AF55C41EACF6D300396A41 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF55C31EACF6D300396A41 /* UIImage+Gif.swift */; };
+		E1AF55C81EACFD6800396A41 /* scene-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = E1AF55C71EACFD6800396A41 /* scene-2.gif */; };
+		E1AF55CA1EACFE4F00396A41 /* scene-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = E1AF55C91EACFE4F00396A41 /* scene-1.gif */; };
+		E1AF55CD1EACFF0300396A41 /* scene-3.gif in Resources */ = {isa = PBXBuildFile; fileRef = E1AF55CB1EACFF0300396A41 /* scene-3.gif */; };
+		E1AF55CE1EACFF0300396A41 /* scene-4.gif in Resources */ = {isa = PBXBuildFile; fileRef = E1AF55CC1EACFF0300396A41 /* scene-4.gif */; };
 		E1F9D9C51E6208E800864C72 /* mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1F9D9C41E6208E800864C72 /* mp3 */; };
 /* End PBXBuildFile section */
 
@@ -53,14 +58,19 @@
 		E151B7811E636EAD0019CB28 /* section4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = section4.png; sourceTree = "<group>"; };
 		E151B7871E6378AC0019CB28 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
 		E151B7891E6383050019CB28 /* erasmus-plus-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "erasmus-plus-logo.jpg"; sourceTree = "<group>"; };
+		E19B81421EAD5D1600B4DBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1AE670C1E37DDF200EF6599 /* WorkIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AE670F1E37DDF200EF6599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1AE67111E37DDF200EF6599 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E1AE67131E37DDF200EF6599 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E1AE67161E37DDF200EF6599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E1AE67181E37DDF200EF6599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1AE671B1E37DDF200EF6599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1AE671D1E37DDF200EF6599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1AF55C31EACF6D300396A41 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		E1AF55C71EACFD6800396A41 /* scene-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scene-2.gif"; sourceTree = "<group>"; };
+		E1AF55C91EACFE4F00396A41 /* scene-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scene-1.gif"; sourceTree = "<group>"; };
+		E1AF55CB1EACFF0300396A41 /* scene-3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scene-3.gif"; sourceTree = "<group>"; };
+		E1AF55CC1EACFF0300396A41 /* scene-4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scene-4.gif"; sourceTree = "<group>"; };
 		E1F9D9C41E6208E800864C72 /* mp3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +104,11 @@
 		E1AE670E1E37DDF200EF6599 /* WorkIT */ = {
 			isa = PBXGroup;
 			children = (
+				E19B81421EAD5D1600B4DBB2 /* Assets.xcassets */,
+				E1AF55CB1EACFF0300396A41 /* scene-3.gif */,
+				E1AF55CC1EACFF0300396A41 /* scene-4.gif */,
+				E1AF55C91EACFE4F00396A41 /* scene-1.gif */,
+				E1AF55C71EACFD6800396A41 /* scene-2.gif */,
 				E151B7891E6383050019CB28 /* erasmus-plus-logo.jpg */,
 				E151B7871E6378AC0019CB28 /* people.png */,
 				E151B77F1E636EAD0019CB28 /* section2.png */,
@@ -111,7 +126,6 @@
 				E1AE67111E37DDF200EF6599 /* FirstViewController.swift */,
 				E1AE67131E37DDF200EF6599 /* SecondViewController.swift */,
 				E1AE67151E37DDF200EF6599 /* Main.storyboard */,
-				E1AE67181E37DDF200EF6599 /* Assets.xcassets */,
 				E1AE671A1E37DDF200EF6599 /* LaunchScreen.storyboard */,
 				E1AE671D1E37DDF200EF6599 /* Info.plist */,
 				E12A7B3E1E523D940008E377 /* ThirdViewController.swift */,
@@ -120,6 +134,7 @@
 				E1064B361E59D4FB00AC138C /* Constants.swift */,
 				E151B76D1E632C290019CB28 /* LanguageController.swift */,
 				E151B7711E6341770019CB28 /* LanguageHolder.swift */,
+				E1AF55C31EACF6D300396A41 /* UIImage+Gif.swift */,
 			);
 			path = WorkIT;
 			sourceTree = "<group>";
@@ -156,6 +171,7 @@
 				TargetAttributes = {
 					E1AE670B1E37DDF200EF6599 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4TC59BMZBX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -185,15 +201,19 @@
 			files = (
 				E151B77D1E636E620019CB28 /* section1.png in Resources */,
 				E151B7761E6355120019CB28 /* Workit_Logo.jpg in Resources */,
+				E1AF55CD1EACFF0300396A41 /* scene-3.gif in Resources */,
 				E151B7831E636EAD0019CB28 /* section3.png in Resources */,
+				E1AF55CA1EACFE4F00396A41 /* scene-1.gif in Resources */,
 				E1F9D9C51E6208E800864C72 /* mp3 in Resources */,
+				E1AF55C81EACFD6800396A41 /* scene-2.gif in Resources */,
 				E12A7B3D1E523B950008E377 /* WorkITAppData.plist in Resources */,
 				E1AE671C1E37DDF200EF6599 /* LaunchScreen.storyboard in Resources */,
-				E1AE67191E37DDF200EF6599 /* Assets.xcassets in Resources */,
 				E1AE67171E37DDF200EF6599 /* Main.storyboard in Resources */,
 				E151B7881E6378AC0019CB28 /* people.png in Resources */,
 				E151B7821E636EAD0019CB28 /* section2.png in Resources */,
 				E151B7841E636EAD0019CB28 /* section4.png in Resources */,
+				E1AF55CE1EACFF0300396A41 /* scene-4.gif in Resources */,
+				E19B81431EAD5D1600B4DBB2 /* Assets.xcassets in Resources */,
 				E151B78A1E6383050019CB28 /* erasmus-plus-logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +227,7 @@
 			files = (
 				E12A7B431E524DB60008E377 /* ViewController.swift in Sources */,
 				E1064B371E59D4FB00AC138C /* Constants.swift in Sources */,
+				E1AF55C41EACF6D300396A41 /* UIImage+Gif.swift in Sources */,
 				E1AE67141E37DDF200EF6599 /* SecondViewController.swift in Sources */,
 				E12A7B391E523B950008E377 /* Section.swift in Sources */,
 				E12A7B3B1E523B950008E377 /* TabNavViewController.swift in Sources */,
@@ -264,6 +285,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -314,6 +336,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -342,6 +365,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEBUG_ACTIVITY_MODE = "";
 				"DEBUG_ACTIVITY_MODE[arch=*]" = disable;
+				DEVELOPMENT_TEAM = 4TC59BMZBX;
 				INFOPLIST_FILE = WorkIT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = europrojects.WorkIT;
@@ -355,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEBUG_ACTIVITY_MODE = "";
+				DEVELOPMENT_TEAM = 4TC59BMZBX;
 				INFOPLIST_FILE = WorkIT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = europrojects.WorkIT;

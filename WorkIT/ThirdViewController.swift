@@ -16,7 +16,7 @@ class ThirdViewController: LanguageHolder, UITableViewDataSource, UITableViewDel
     
     let cellIdentifier = "CellIdentifier"
     var player: ViewController? = nil
-    var translateToLanguage: String = Constants.englishLangKey
+    var translateToLanguage: String = Constants.mainLangKey
 //    var mainLanguage: String = Constants.englishLangKey
     var sectionKey: String = Constants.sectionThirdKey
     

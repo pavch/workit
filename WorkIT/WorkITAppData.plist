@@ -190,7 +190,7 @@
 		<key>section 4</key>
 		<dict>
 			<key>title</key>
-			<string>w miejscu pracy</string>
+			<string>W miejscu pracy</string>
 			<key>1</key>
 			<string>Dzien dobry do 12.00 w dzien</string>
 			<key>2</key>
@@ -831,7 +831,7 @@
 		<key>section 2</key>
 		<dict>
 			<key>title</key>
-			<string>Cum și unde să candidataţi pentru un loc de muncă</string>
+			<string>Candidataţi pentru un loc de muncă</string>
 			<key>1</key>
 			<string>Vreau să candidatez pentru un loc de muncă.</string>
 			<key>2</key>

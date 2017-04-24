@@ -16,8 +16,7 @@ class ForthViewController: LanguageHolder, UITableViewDataSource, UITableViewDel
     
     let cellIdentifier = "CellIdentifier"
     var player: ViewController? = nil
-    var translateToLanguage: String = Constants.bgLangKey
-//    var mainLanguage: String = Constants.englishLangKey
+    var translateToLanguage: String = Constants.mainLangKey
     var sectionKey: String = Constants.sectionForthKey
     
     
@@ -31,17 +30,17 @@ class ForthViewController: LanguageHolder, UITableViewDataSource, UITableViewDel
         let workitDataPath = Bundle.main.path(forResource: "WorkITAppData", ofType: "plist", inDirectory: ".")
         workitData = NSDictionary(contentsOfFile: workitDataPath!)
         let itemsDictionary:NSDictionary = workitData.object(forKey: Constants.chosenLanguage) as! NSDictionary
-        let firstSectionItems = itemsDictionary.object(forKey: self.sectionKey) as! NSDictionary
+        let sectionItems = itemsDictionary.object(forKey: self.sectionKey) as! NSDictionary
         
-        self.navigationItem.title = firstSectionItems.object(forKey: "title") as! String
-        let unsortedKeys = firstSectionItems.allKeys.filter() { ($0 as! String) != "title"}
+        self.navigationItem.title = sectionItems.object(forKey: "title") as! String
+        let unsortedKeys = sectionItems.allKeys.filter() { ($0 as! String) != "title"}
         var unsortedArray:[Int] = []
         
         unsortedArray = unsortedKeys.map { Int($0 as! String)! }
         let sortedArray:[Int] = unsortedArray.sorted(by: <)
         
         for index in sortedArray {
-            phrases.append(firstSectionItems.value(forKey: String(index)) as! String)
+            phrases.append(sectionItems.value(forKey: String(index)) as! String)
         }
     }
     
@@ -49,16 +48,15 @@ class ForthViewController: LanguageHolder, UITableViewDataSource, UITableViewDel
         let workitDataPath = Bundle.main.path(forResource: "WorkITAppData", ofType: "plist", inDirectory: ".")
         workitData = NSDictionary(contentsOfFile: workitDataPath!)
         let itemsDictionary:NSDictionary = workitData.object(forKey: self.translateToLanguage) as! NSDictionary
-        let firstSectionItems = itemsDictionary.object(forKey: self.sectionKey) as! NSDictionary
-        
-        let unsortedKeys = firstSectionItems.allKeys.filter() { ($0 as! String) != "title"}
+        let sectionItems = itemsDictionary.object(forKey: self.sectionKey) as! NSDictionary
+        let unsortedKeys = sectionItems.allKeys.filter() { ($0 as! String) != "title"}
         var unsortedArray:[Int] = []
         
         unsortedArray = unsortedKeys.map { Int($0 as! String)! }
         let sortedArray:[Int] = unsortedArray.sorted(by: <)
         
         for index in sortedArray {
-            self.translations.append(firstSectionItems.value(forKey: String(index)) as! String)
+            self.translations.append(sectionItems.value(forKey: String(index)) as! String)
         }
     }
     

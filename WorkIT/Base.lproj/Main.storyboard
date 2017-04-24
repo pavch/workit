@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Pey-7l-82i">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Pey-7l-82i">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -414,11 +414,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="track translation comes here" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NOC-qW-wsW">
-                                <rect key="frame" x="20" y="359" width="335" height="76"/>
+                                <rect key="frame" x="20" y="350" width="335" height="90"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="OIB-9n-Grk"/>
+                                    <constraint firstAttribute="height" constant="90" id="OIB-9n-Grk"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
                                 <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -466,11 +466,11 @@
                                 <rect key="frame" x="0.0" y="101" width="375" height="234.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="track title come here" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CKS-Ul-PC6">
-                                <rect key="frame" x="24" y="434" width="335" height="75"/>
+                                <rect key="frame" x="24" y="442" width="335" height="81"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="jxF-a9-dLZ"/>
+                                    <constraint firstAttribute="height" constant="81" id="jxF-a9-dLZ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
                                 <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -482,13 +482,13 @@
                             <constraint firstItem="CKS-Ul-PC6" firstAttribute="leading" secondItem="3en-9p-IQx" secondAttribute="leading" constant="24" id="DgU-vd-A0A"/>
                             <constraint firstItem="NJY-wh-uNT" firstAttribute="leading" secondItem="3en-9p-IQx" secondAttribute="leading" id="FWm-lH-nkw"/>
                             <constraint firstItem="NOC-qW-wsW" firstAttribute="leading" secondItem="3en-9p-IQx" secondAttribute="leading" constant="20" id="SXv-wx-29T"/>
-                            <constraint firstItem="CKS-Ul-PC6" firstAttribute="top" secondItem="NOC-qW-wsW" secondAttribute="bottom" constant="-1.5" id="UyS-nO-9hc"/>
+                            <constraint firstItem="CKS-Ul-PC6" firstAttribute="top" secondItem="NOC-qW-wsW" secondAttribute="bottom" constant="2" id="UyS-nO-9hc"/>
                             <constraint firstItem="NvZ-YM-qm4" firstAttribute="leading" secondItem="3en-9p-IQx" secondAttribute="leading" id="WIW-Zh-zSY"/>
                             <constraint firstItem="mfn-8b-cRI" firstAttribute="top" secondItem="NJY-wh-uNT" secondAttribute="bottom" constant="8.5" id="afd-Eg-G7T"/>
                             <constraint firstAttribute="trailing" secondItem="CKS-Ul-PC6" secondAttribute="trailing" constant="16" id="ate-Kc-yXC"/>
                             <constraint firstItem="mfn-8b-cRI" firstAttribute="leading" secondItem="3en-9p-IQx" secondAttribute="leading" constant="24" id="bTL-hG-NDC"/>
-                            <constraint firstItem="NOC-qW-wsW" firstAttribute="top" secondItem="mfn-8b-cRI" secondAttribute="bottom" constant="-25" id="gP1-We-sD9"/>
-                            <constraint firstItem="NOC-qW-wsW" firstAttribute="centerY" secondItem="3en-9p-IQx" secondAttribute="centerY" constant="63.5" id="gy0-gb-cpy"/>
+                            <constraint firstItem="NOC-qW-wsW" firstAttribute="top" secondItem="mfn-8b-cRI" secondAttribute="bottom" constant="-34" id="gP1-We-sD9"/>
+                            <constraint firstItem="NOC-qW-wsW" firstAttribute="centerY" secondItem="3en-9p-IQx" secondAttribute="centerY" constant="61.5" id="gy0-gb-cpy"/>
                             <constraint firstAttribute="trailing" secondItem="NvZ-YM-qm4" secondAttribute="trailing" id="hpH-9E-QR6"/>
                             <constraint firstItem="QXE-bs-K3S" firstAttribute="top" secondItem="NvZ-YM-qm4" secondAttribute="bottom" id="nPH-zY-pmS"/>
                             <constraint firstAttribute="trailing" secondItem="mfn-8b-cRI" secondAttribute="trailing" constant="16" id="vjF-YB-AjM"/>

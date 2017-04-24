@@ -114,7 +114,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
 
     func setupPlaylistFiles(section: Int, language: String, titles: [String], translations: [String]) {
-        
+        print(language)
         self.playListFiles = [];
         self.section = section;
         for index in 1...20 {
@@ -144,21 +144,17 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             print("Y no setup the files? What should I play?")
         } else {
             self.currentTrackIndex = index
-            
+            print(self.language)
             // choose file from play list
             let fileURL:URL =  Bundle.main.url(
                 forResource: self.playListFiles[self.currentTrackIndex - 1]
-                , withExtension: "MP3"
+                , withExtension: "mp3"
                 , subdirectory: "mp3/\(self.language)")!
             
             
             do {
-                // create audio player with given file url
-//                if (self.audioPlayer) {
-//                    self.audioPlayer.url =
-//                } else {
-                    self.audioPlayer = try AVAudioPlayer(contentsOf: fileURL)
-//                }
+
+                self.audioPlayer = try AVAudioPlayer(contentsOf: fileURL)
                 
                 // set audio player delegate
                 self.audioPlayer.delegate = self
@@ -166,7 +162,6 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
                 // set default volume level
                 self.audioPlayer.volume = 0.7
                 
-                // make player ready (i.e. preload buffer)
                 self.audioPlayer.prepareToPlay()
                 
             } catch let error as NSError {

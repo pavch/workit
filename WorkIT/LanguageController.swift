@@ -16,9 +16,9 @@ class LanguageController: UIViewController,
     @IBOutlet weak var enterButton: UIButton!
     @IBOutlet weak var chooseLanguageLabel: UILabel!
     @IBOutlet weak var pickerView: UIPickerView!
-    let languages = ["العربية","English", "Polski", "Românesc", "Русский", "Türk"]
+    let languages = ["العربية", "Polski", "Românesc", "Русский", "Türk"]
     
-    var languageIndex: Int = 2
+    var languageIndex: Int = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()

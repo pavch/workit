@@ -16,7 +16,7 @@ class FirstViewController: LanguageHolder, UITableViewDataSource, UITableViewDel
 
     let cellIdentifier = "CellIdentifier"
     var player: ViewController? = nil
-    var translateToLanguage: String = Constants.englishLangKey
+    var translateToLanguage: String = Constants.mainLangKey
 //    var mainLanguage: String = Constants.englishLangKey
     var sectionKey: String = Constants.sectionFirstKey
     override func viewDidLoad() {
@@ -41,7 +41,7 @@ class FirstViewController: LanguageHolder, UITableViewDataSource, UITableViewDel
         let itemsDictionary:NSDictionary = workitData.object(forKey: Constants.chosenLanguage) as! NSDictionary
         let firstSectionItems = itemsDictionary.object(forKey: self.sectionKey) as! NSDictionary
 
-        self.navigationItem.title = (firstSectionItems.object(forKey: "title") as! String).uppercased()
+        self.navigationItem.title = (firstSectionItems.object(forKey: "title") as! String)
         let unsortedKeys = firstSectionItems.allKeys.filter() { ($0 as! String) != "title"}// ["a", "b"]
         var unsortedArray:[Int] = []
         
